@@ -6,53 +6,37 @@ layout: default
 
 ### [EGR111](../) - Course Information
 
+- [EGR111 Syllabus](EGR111.Syllabus.pdf){:target="_blank"}
+
 - Schedule
     - Sprint 1
         - Week 1
             - Session 1 
                 - Course Introduction
-                - Kit Introduction
-                - C Language Introduction
-            - Session 2 
-                - Remote Connection
-                - Linux Introduction
-                - VS Code Introduction
+            - Session 2 - Lecture 1
+                - Installation and Introduction to VS Code
+                - Chapter 1 - Introduction to C
         - Week 2
-            - Session 1 
-                - Starting to Write Code
-                - Basics of Compilation
-                - Git and GitHub
-            - Session 2 
-                - Variables and Data Types
-                - Simple Input and Output
-                - Operators
+            - Session 1 - Lecture 2 
+                - Chapter 2 - Variables, Types
+            - Session 2 - Lecture 3
+                - Instroduction to Git and GitHub
+                - Chapter 2 - Operations and Casts
         - Week 3
-            - Session 1 
-                - Cast and SizeOf Operators
-                - Enums and Chars
-                - Format Specifiers
-            - Session 2 
-                - Project 1
-    
-    - Sprint 2
+            - Session 1 - Lecture 4
+                - Chapter 3 = Branching and Iteration
+            - Session 2 - Lecture 5
+                - Chapter 4 - Functions
         - Week 4
-            - Session 1
-                - Conditionals - If Statements
-                - Switch Statement
-            - Session 2
-                - Iteration While and Do While
-                - Iteration For Loop
-        - Week 5
-            - Session 1
-                - Nested Loops and Loop Control
-                        
-            Session 1 - Lecture 6
+            - Session 1 - Lecture 6
                 - Chapter 5 - Scoping
             - Session 2 - Lecture 7
                 - Chapter 6 - Software Design
         - Week 5
             - Session 1 - Sprint 1 Review & Assesment
-            - Session 2 - Sprint 1 Assessment- Week 6
+            - Session 2 - Sprint 1 Assessment
+    - Sprint 2
+        - Week 6
             - Session 1 - Lecture 8
                 - Chapter 7 - Pointers
             - Session 2 - Lecture 9
@@ -100,7 +84,7 @@ layout: default
             - Session 1 - Sprint 3 Review & Assesment
             - Session 2 - Sprint 3 Assessment   
 
-<!-- 
+<! -- 
 CS1111 Topics (MTU)
 Week 1 – Linux intro, simple C Program (main function, simple output)
 Week 2 – variables, I/O
