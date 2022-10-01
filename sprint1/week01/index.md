@@ -12,7 +12,7 @@ layout: default
     - [C Language Introduction](../../lessons/003.CProgrammingIntro.pdf){:target="_blank"}
     
 - Session 2
-    - [Creating a Remote Connections](../../lessons/004.CreatingRemoteConnection.pdf){:target="_blank"}
+    - [Raspberry Pi Startup](../../lessons/004.RPiStartup.pdf){:target="_blank"}
     - [Introduction to Linux](../../lessons/005.LinuxIntro.pdf){:target="_blank"}
     - [Introduction to VS Code](../../lessons/006.VSCodeIntro.pdf){:target="_blank"}
 
