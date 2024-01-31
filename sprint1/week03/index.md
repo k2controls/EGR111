@@ -13,30 +13,67 @@ No class - kek at MICEC Conference
 
 **Session 2**
 
-<!-- - Week 02 Review
-  - ChatGPT?
+- Week 02 Review
   - number systems worksheet
 
-- Review of RPi setup
-  - VNC Remote Access
-    - new host name (kek used EGR)
-    - new password
-    - Using Ethernet? Add .local to host name (example EGR.local)
-    - Via Network/Wi-Fi? (example EGR)
-    - Click save password option for easy access
+  - Review of RPi setup
+    - VNC Remote Access
+      - new host name (kek used EGR-SP24)
+      - new password
+      - Using Ethernet? Add .local to host name (example EGR.local)
+      - Via Network/Wi-Fi? (example EGR-SP24)
+      - Click save password option for easy access
 
-- C Lanugage
-  - GCC compiler is installed by default in RPi OS
+  - C Lanugage
+    - GCC compiler is installed by default in RPi OS
 
-- Visual Studio Code
-  - Use the following command at a terminal prompt
-    - code .
+```console
+  gcc --version
+```
+
+  - Visual Studio Code
+    - Install on Pi os by kek
+    - Here is bash command to install on new device
+
+````console
+  sudo apt install code
+```
+    
+    - Use the following commands at a terminal prompt to launch vs code in the EGR111 workspace
+
+```console
+  cd EGR111
+  code .
+```
     - the "dot" refers to *this directory*
+
+- Week 02 Pair Coding 
+  - grocery_bill.c
+  - time_convert.c
+
 
 - [GitHub Account Setup](Git_GitHub.pdf){:target="_blank"} 
   - Work through this procedure with the instructor to set up your Git repository
   - Use this document to review concepts, instructions, and actions.
 
+- Week 02 Pair Coding
+  - Review existing code is either in Repl or EGR111_temp directory
+    - grocery_bill.c
+    - time_convert.c
+  - create week01 and week02 directories in new EGR111 directory
+  - copy existing coding to new EGR111/week02 directory
+
+```console
+cd EGR111_temp/week02
+cp hello.c ~/EGR111/week02/hello.c
+cp hello.c ../../EGR111/week02/c-f_convert.c
+cp grocery_bill* ../EGR111/week02
+
+```
+  - stage, commit, and push week02 code
+  - verify commit on GitHub site
+
+<!-- -   
 - Hello.c review from Week 02
   - commit week02 directory with hello and hello.c when complete
     - open integrated VS Code terminal
@@ -55,8 +92,8 @@ No class - kek at MICEC Conference
 - [Structure and Style](https://en.wikibooks.org/wiki/C_Programming/Structure_and_style){:target="_blank"}
   - Use the wget instruction below to copy the starter code into the directory.
   -   wget https://k2controls.github.io/EGR111/sprint1/week03/style.c
-   -->
-<!-- 
+  
+
 
 - Structure and Style (continued - see Session 1) 
 
@@ -67,7 +104,7 @@ No class - kek at MICEC Conference
   - variables
   - scanf
     - **Assigned:** - use the wget instruction below to copy the starter code into the directory. Complete the coding as directed.
-      - wget https://k2controls.github.io/EGR111/sprint1/week03/tictactoe_brd.c
+      - wget https://k2controls.github.io/EGR111/sprint1/week03/tictactoe_brd.c 
 
 - **Assigned**  
   - Use Google or other search to locate either a F->C or C->F temperature conversion program written in C.
@@ -96,16 +133,10 @@ No class - kek at MICEC Conference
       - time_convert
       - time_convert.c
     - -week03
-      - TBD
-
-<!-- - style
-      - style.c
-      - tictactoe_brd
-      - tictactoe_brd.c
-      - temp_convert
-      - temp_convert.c 
-      -->
-    
+      - grocery_bill
+      - grocery_bill.c (refactored)
+      - time_convert
+      - time_convert.c (refactored)
     .gitignore
     README.md
 
