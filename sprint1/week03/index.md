@@ -39,13 +39,13 @@ No class - kek at MICEC Conference
   sudo apt install code
 ```
     
-    - Use the following commands at a terminal prompt to launch vs code in the EGR111 workspace
+  - Use the following commands at a terminal prompt to launch vs code in the EGR111 workspace
 
 ```console
   cd EGR111
   code .
 ```
-    - the "dot" refers to *this directory*
+  - the "dot" refers to *this directory*
 
 - Week 02 Pair Coding 
   - grocery_bill.c
