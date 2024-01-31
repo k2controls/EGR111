@@ -35,7 +35,7 @@ No class - kek at MICEC Conference
     - Install on Pi os by kek
     - Here is bash command to install on new device
 
-````console
+```console
   sudo apt install code
 ```
     
