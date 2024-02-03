@@ -73,47 +73,13 @@ cp grocery_bill* ../EGR111/week02
   - stage, commit, and push week02 code
   - verify commit on GitHub site
 
-<!-- -   
-- Hello.c review from Week 02
-  - commit week02 directory with hello and hello.c when complete
-    - open integrated VS Code terminal
-    - Move to wee02
-    - Get hello code
-      - wget https://k2controls.github.io/EGR111/sprint1/week02/hello.c
-    - add comments as directed
-    - commit
-    - push
-    - verify on GitHub site
-- Create week03
-  - Get c_version.c
-    - wget https://k2controls.github.io/EGR111/sprint1/week02/c_version.c
-  - commit and push
+- Create week03 directory
+  - Search for sample C code (something simple)
+  - Create/copy to week03
+  - compile and run
   
-- [Structure and Style](https://en.wikibooks.org/wiki/C_Programming/Structure_and_style){:target="_blank"}
-  - Use the wget instruction below to copy the starter code into the directory.
-  -   wget https://k2controls.github.io/EGR111/sprint1/week03/style.c
-  
-
-
-- Structure and Style (continued - see Session 1) 
-
-- [Input and Output](https://www.log2base2.com/C/basic/printf-function-in-c.html){:target="_blank"}
-  - printf statement
-  - escape sequence
-  - data types
-  - variables
-  - scanf
-    - **Assigned:** - use the wget instruction below to copy the starter code into the directory. Complete the coding as directed.
-      - wget https://k2controls.github.io/EGR111/sprint1/week03/tictactoe_brd.c 
-
-- **Assigned**  
-  - Use Google or other search to locate either a F->C or C->F temperature conversion program written in C.
-  - create a temp_convert.c file in week03 and copy the code that you found.
-  - Run the sample code in the IDE. Did it compile and run? Do you see the temp_convert binary?
-
 - Commit and push all to your remote repo.
 - Open your GitHub repo in a browser. Confirm you have pushed all required code. See Assignment section below for required files. It is alway okay if you have extra files that represent work completed during that week.
-   -->
 
 
 ---
@@ -126,17 +92,17 @@ cp grocery_bill* ../EGR111/week02
     - -week02
       - c_version
       - c_version.c
-      - hello
-      - hello.c
+      - c-f_convert     (optional)
+      - c-f_convert.c   (optional)
       - grocery_bill
       - grocery_bill.c
+      - hello
+      - hello.c
       - time_convert
       - time_convert.c
     - -week03
-      - grocery_bill
-      - grocery_bill.c (refactored)
-      - time_convert
-      - time_convert.c (refactored)
+      - [your code sample]
+      - [your code sample].c
     .gitignore
     README.md
 
