@@ -14,7 +14,7 @@ layout: default
 
 - [Structure and Style](https://en.wikibooks.org/wiki/C_Programming/Structure_and_style){:target="_blank"}
   - Use the wget instruction below to copy the starter code into the directory.
-  -   wget https://k2controls.github.io/EGR111/sprint1/week03/style.c
+  -   wget https://k2controls.github.io/EGR111/sprint2/week04/style.c
   - Style 
     - use identation and whitespace. 
     - Use good naming. 
@@ -51,6 +51,30 @@ layout: default
     - wget https://k2controls.github.io/EGR111/sprint2/week04/smallest_bills.c
 
 **Session 2**
+
+<!-- - Session 1 review
+  - Tic Tac Toe Board solution
+  - Smallest Bills solution
+
+- This week assignments
+  - [Solar Panel Calculator](SolarPanelCalculator.pdf){:target="_blank"}
+  - break-out - discuss requirements and approach to Solar Panel Calculator
+  - class report-out
+  - solar_panel_calc.c - instructor will start solution and demostrate using of constants and define along with casting.
+
+- **In-class Activity**
+  - The instructor will review the Office Space Calculator found [here](https://www.squarefoot.com/office-space-calculator){:target="_blank"}.
+  - The instructor will demonstrate the using [https://replit.com](https://replit.com){:target="_blank"} to complete partner coding activities.
+  - The instructor will divide the class into teams using the Zoom breakout room feature.
+  - Review the Calculator site with your team member
+  - Have one team member create a coding space on Replit and then use Invite to copy a join link into the Zoom chat feature.
+  - Create the office_space.c solution that reproduces the service of the office space calculator.
+  - Add comments at the beginning identifying the project and listing the team member names.
+  - Research the **#define** preprocessor macro and use this to specify space requirements for work space, private office, conference room, kitchen, and utility room. 
+  - Set the space per employee to the Spacious value shown in the drop down.
+  - You cannot run code at codeshare.io. Open a brower on your Pi, access the code share, and download to the Pi. Save to your week03 directory. Note: You can attempt a copy and paste from the site but this can result in hidden characters that cause errors.
+  - Run and test your code. Use the website to validate your results.
+  - Submit whatever code that you have completed to the Moodle link provided. This must be submitted today. We'll review a session 2. -->
 
 ---
 
