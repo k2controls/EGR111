@@ -52,7 +52,7 @@ layout: default
 
 **Session 2**
 
-<!-- - Session 1 review
+- Session 1 review
   - Tic Tac Toe Board solution
   - Smallest Bills solution
 
@@ -70,11 +70,10 @@ layout: default
   - Have one team member create a coding space on Replit and then use Invite to copy a join link into the Zoom chat feature.
   - Create the office_space.c solution that reproduces the service of the office space calculator.
   - Add comments at the beginning identifying the project and listing the team member names.
-  - Research the **#define** preprocessor macro and use this to specify space requirements for work space, private office, conference room, kitchen, and utility room. 
+  - Use the **#define** preprocessor macro and use this to specify space requirements for work space, private office, conference room, kitchen, and utility room. 
   - Set the space per employee to the Spacious value shown in the drop down.
-  - You cannot run code at codeshare.io. Open a brower on your Pi, access the code share, and download to the Pi. Save to your week03 directory. Note: You can attempt a copy and paste from the site but this can result in hidden characters that cause errors.
   - Run and test your code. Use the website to validate your results.
-  - Submit whatever code that you have completed to the Moodle link provided. This must be submitted today. We'll review a session 2. -->
+  - Copy the Repl code to this week's folder on your Pi. Complile and Run. 
 
 ---
 
