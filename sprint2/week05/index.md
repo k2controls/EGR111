@@ -7,6 +7,9 @@ layout: default
 ### [EGR111](../../) - [Sprint 2](../) - Week 05 
 
 ## Session 1 ##
+
+- pull grading form
+ 
 - Week 04 Review
   - Office Calculator
     - student demo
