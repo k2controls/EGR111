@@ -88,8 +88,9 @@ layout: default
 
   - Create the required logic structure for correct move list. The instructor will demo.
 
-- [boolean (bool or _Bool) datatype](https://iq.opengenus.org/boolean-in-c/){:target='_blank'}
-  
+- boolean (bool or _Bool) datatype
+  - AI Prompt: Please provide an overview of using the bool data type in C language.
+    
 ```C
 #include <stdbool.h> 
 #include <stdio.h>
