@@ -63,11 +63,11 @@ layout: default
     - do while
     - for
 
-- [CHAPTER FOUR] - More advanced flow control
-  - break
-  - continue
-
-- [CHAPTER SIX] - Functions
+- Textbook (see link in Moodle right pane)
+  - [CHAPTER FOUR] - More advanced flow control
+    - break
+    - continue
+  - [CHAPTER SIX] - Functions
 
   - [Functions - an introduction](https://www.log2base2.com/C/function/functions-in-c.html){:target='_blank'}  
 
@@ -77,20 +77,20 @@ layout: default
 
     - Function Call: To use a function, you call it from another function (like the main() function or another user-defined function). When called, the execution of the program jumps to the function definition, executes the code inside it, and returns to the point from where it was called.
 
-- **On Your own** 
-
-- Checker Move - move solution demonstrating conditional logic.
-  - [chkr_moves.c](chkr_moves.c)
+ 
+- **Checker Move**
+  - Move solution demonstrating conditional logic.
+  - Instructor will use starter code to discuss functions
+  - Create the required logic structure for correct move list.
+ - [chkr_moves.c](chkr_moves.c)
 
 ```console
     wget https://k2controls.github.io/EGR111/sprint2/week05/chkr_moves.c
 ```
 
-  - Create the required logic structure for correct move list. The instructor will demo.
-
 - boolean (bool or _Bool) datatype
   - AI Prompt: Please provide an overview of using the bool data type in C language.
-    
+
 ```C
 #include <stdbool.h> 
 #include <stdio.h>
