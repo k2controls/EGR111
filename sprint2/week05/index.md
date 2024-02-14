@@ -54,47 +54,83 @@ layout: default
 
 ## Session 2 ##
 
-<!-- - Session 1 Review
+- Session 1 Review
   - Selection/decisions - if/else
     - nested if, else if, else
-    - logic operators - example if gender is male and age is greater than 18 then 
+    - logic operators - example if gender is male and age is greater than 18 then selective service registration required.
   - Iteration/looping
     - while
     - do while
     - for
 
-- [Conditional or Ternary Operator (?:)](https://www.geeksforgeeks.org/conditional-or-ternary-operator-in-c/){:target='_blank'}
+- [CHAPTER FOUR] - More advanced flow control
+  - break
+  - continue
 
-- [RGB Converter Project](RGBConverter.pdf){:target='_blank'}
-  - in-class, partner activity
-  - use repl to create solution following instructor's lead
-  - https://replit.com/~
+- [CHAPTER SIX] - Functions
+
+  - [Functions - an introduction](https://www.log2base2.com/C/function/functions-in-c.html){:target='_blank'}  
+
+    - Function Declaration: Before you can use a function, you must declare it. This tells the compiler about the function's name, return type, and parameters (if any).
+
+    - Function Definition: This is where the actual code of the function resides. It specifies what the function does.
+
+    - Function Call: To use a function, you call it from another function (like the main() function or another user-defined function). When called, the execution of the program jumps to the function definition, executes the code inside it, and returns to the point from where it was called.
+
+- **On Your own** 
 
 - Checker Move - move solution demonstrating conditional logic.
   - [chkr_moves.c](chkr_moves.c)
-  - Create the required logic structure for correct move list. The instructor will demo.
-- [Functions - an introduction](https://www.log2base2.com/C/function/functions-in-c.html){:target='_blank'}  
- -->
 
-<!-- - chkr_moves.c - review and discuss
-- [Functions - an introduction](https://en.wikibooks.org/wiki/C_Programming/Procedures_and_functions){:target='_blank'} 
-  - Return values - error handling
-    - [return_success.c](return_success.c){:target='_blank'}  
-    - errno.h - [error code list](https://www.gnu.org/software/libc/manual/html_node/Error-Codes.html){:target='_blank'}
-    - [Exceptions rather than Return codes](https://stackoverflow.com/questions/99683/which-and-why-do-you-prefer-exceptions-or-return-codes){:target='_blank'}
-    - [C Programming/Error handling](https://en.wikibooks.org/wiki/C_Programming/Error_handling){:target='_blank'}
-  - Using parameters and return values
-    - [chkr_get_player.c](chkr_get_player.c){:target='_blank'}
-- Assignment: [Route Factory](../../assign/08.route_factory/route_factory.c){:target='_blank'} 
-  - Run solution to investigate output
-  - Use debugger to single step (step into, step over, step out)
-  - Add extensive comments indicating your ability to read and understand the code.
-- Assignment: [Solar Panel Calc V2](../../assign/09.SolarPanelsV2/solar_panel_calc_v2.c){:target='_blank'} 
-  - main() is provided
-  - implement required functions. Validate against your V1 solution.
-- Assignment: RGB Converter V2
-  - Review Route Factory and Solar Panel Calculator V2
-  - Create you own *rgb_color_convert_v2.c* solution that duplicates functionality of the V1 solution but implements functions that simplify main() and provide clean structure. -->
+```console
+    wget https://k2controls.github.io/EGR111/sprint2/week05/chkr_moves.c
+```
+
+  - Create the required logic structure for correct move list. The instructor will demo.
+
+- [boolean (bool or _Bool) datatype](https://iq.opengenus.org/boolean-in-c/){:target='_blank'}
+  
+```C
+#include <stdbool.h> 
+#include <stdio.h>
+int main() 
+{ 
+  // review - true and false values
+  int x;
+  if (x)
+    printf("true");
+  x = -99;
+  if (x)
+    printf("true");
+  x = 0;
+  if (x)
+    printf("true");
+  else
+    printf("false");
+
+  bool a = true;
+  bool b = false;
+  if(a == 1)
+    printf("It is true");
+  if(b == 0)
+    printf("B is false");
+  if(a)
+    printf("It is true");
+  if(!b)
+    printf("B is false");
+  if(a && !b)
+    printf("Is it true");
+  return 0; 
+}
+``` 
+
+- **In-class Pair Coding** 
+
+- [RGB Converter Project](RGBConverter.pdf){:target='_blank'}
+  - in-class, partner activity
+  - use repl to create solution
+  - download and test in your EGR111 environment
+
   
 ---
 
@@ -113,12 +149,5 @@ layout: default
       - rgb_color_convert.c
     - gitignore
     - README.md
-
-
-
-<!-- - Revise your *chkr_moves.c* solution based on class discuss. Push to your week05 directory.
-- Complete *Route Factory*. Push to week05.
-- Code *Solar Panel Calculator V2*. Push initial attempt to week05. We will review and discuss during week06 and the final version is pushed then.
-- Code *RGB Color Converter V2*. Push initial attempt to week05. We will review and discuss during week06 and the final version is pushed then. -->
 
 -  **Be sure to push your updates by the Sunday deadline.**
