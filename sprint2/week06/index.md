@@ -64,8 +64,9 @@ layout: default
   
 **Session 2**
 
-<!-- - max_of_three.c review
-  - use of globals
+- Grading  updated
+  - Use of AI
+
 
 - schedule
   - Week 07
@@ -76,14 +77,19 @@ layout: default
       - 30 MC Questions
       - Short in-class programming solution
 
+- max_of_three.c review
+  - use of globals
+  
 - Refactored Code: [Solar Panel Calc V2](solar_panel_calc_v2.c){:target='_blank'}
   - wget https://k2controls.github.io/EGR111/sprint2/week06/solar_panel_calc_v2.c
 
-- Introduction to variable scope
+- Introduction to variable scope and pointers
   - [chkr_get_player.c](chkr_get_player.c)
   - wget https://k2controls.github.io/EGR111/sprint2/week06/chkr_get_player.c
 
-- Coding Lab: Requirements
+<!-- When declaring variables in C programming that are pointers should I use "int* number" or "int *number" when pointing to an integre variable? -->
+
+<!-- - Coding Lab: Requirements
   - Use the repl site to build a car_warranty.c solution.
   - The solution tells the user if his or her car is still under warranty based on age, miles, and problem.
   - The user enters the year of the vehicle using the get_vehicle_year() function. The year must be entered as a numeric and must be contrained to values between the current year (2024) and 2014. Cars older the 10 years are not covered by warrenty even if it is extended. See solar_panel_calc_v2 for examples.
@@ -96,12 +102,14 @@ layout: default
 ### Assignments
   - EGR111
     - - week06
-      - car_warranty
-      - car_warranty.c
+<!-- - car_warranty
+      - car_warranty.c -->
       - chkr_get_player
       - chkr_get_player.c
       - max_of_three
       - max_of_three.c
+      - solar_panel_calc_v2
+      - solar_panel_calc_v2.c
 
 -  **Be sure to push your updates by the Sunday deadline.**
 
