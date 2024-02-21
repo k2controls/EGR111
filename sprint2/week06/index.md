@@ -87,23 +87,23 @@ layout: default
   - [chkr_get_player.c](chkr_get_player.c)
   - wget https://k2controls.github.io/EGR111/sprint2/week06/chkr_get_player.c
 
-<!-- When declaring variables in C programming that are pointers should I use "int* number" or "int *number" when pointing to an integre variable? -->
+AI Prompt: When declaring variables in C programming that are pointers should I use "int* number" or "int *number" when pointing to an integre variable?
 
-<!-- - Coding Lab: Requirements
+- Coding Lab: Requirements
   - Use the repl site to build a car_warranty.c solution.
   - The solution tells the user if his or her car is still under warranty based on age, miles, and problem.
   - The user enters the year of the vehicle using the get_vehicle_year() function. The year must be entered as a numeric and must be contrained to values between the current year (2024) and 2014. Cars older the 10 years are not covered by warrenty even if it is extended. See solar_panel_calc_v2 for examples.
   - Instructor will work with class to build main method. Teams will define required functions.
     - [car_warranty.c](car_warranty.c)
-    - wget https://k2controls.github.io/EGR111/sprint2/week06/car_warranty.c -->
+    - wget https://k2controls.github.io/EGR111/sprint2/week06/car_warranty.c
 
 ---
 
 ### Assignments
   - EGR111
     - - week06
-<!-- - car_warranty
-      - car_warranty.c -->
+      - car_warranty
+      - car_warranty.c
       - chkr_get_player
       - chkr_get_player.c
       - max_of_three
