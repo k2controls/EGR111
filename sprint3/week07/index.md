@@ -52,8 +52,11 @@ layout: default
   - The data input should end when a value of 0 is entered and the results are then reported.  -->
 
 **Session 2**
+
+<!-- 
+
 - [char_test solution](char_test_solution.c)
-<!-- - leap_year solution
+ - leap_year solution
     
 - Introduction arrays
     - [Arrays in C](https://www.log2base2.com/C/array/arrays-in-c.html){:target='_blank'}
@@ -67,7 +70,7 @@ layout: default
     - [concepts and terms](midterm_review.md)
   - In class programming
     - Push to week07 by end of class
-      - **OR** submit code to Moodle link (only if push issues) -->
+      - **OR** submit code to Moodle link (only if push issues)  -->
 
 ---
 
