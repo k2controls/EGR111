@@ -21,17 +21,17 @@ char get_player()
     }
 }
 
-char make_king(char player)
-{
-    return toupper(player);
-}
-
 void king_me(char player)
 {
     // Function parameters are pass by value
     // This one does not work!
     player = toupper(player);
     printf("*** %C *** wrong. Param is local scope.\n", player);
+}
+
+char make_king(char player)
+{
+    return toupper(player);
 }
 
 void kinged(char* player_ptr)
