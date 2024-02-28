@@ -31,10 +31,12 @@ layout: default
     - [Exceptions rather than Return codes](https://stackoverflow.com/questions/99683/which-and-why-do-you-prefer-exceptions-or-return-codes){:target='_blank'}
     - [C Programming/Error handling](https://en.wikibooks.org/wiki/C_Programming/Error_handling){:target='_blank'}
 
+**Session 2**
 
-<!-- - more functions
-  - char_test.c using ctype.h
+- more functions
+  - [char_test.c](char_test.c){:target='_blank'} using ctype.h
     - https://www.tutorialspoint.com/c_standard_library/ctype_h.htm
+    - copy to Repl and run
 
 - **Assigned:** char_test_v2.c
   - Review the following links
@@ -45,40 +47,27 @@ layout: default
   - remove ctype.h
   - create your own is_upper(), is_lower(), and is_digit() functions. The functions must return a Boolean value.
 
-- **Assigned:** leap_year.c
-  - Follow the pattern in char_test to create a solution that inputs year values from a user (example: 2014) and count the number of years entered along with the number of leap years entered.
-  - Create and use an is_leap_year() function.
-  - A leap year is a year that is exactly divisible by four, except for years that are exactly divisible by 100, but these years are leap years if they are exactly divisible by 400.
-  - The data input should end when a value of 0 is entered and the results are then reported.  -->
-
-**Session 2**
-
-<!-- 
-
-- [char_test solution](char_test_solution.c)
- - leap_year solution
+- char_test solution - class review and discuss
     
 - Introduction arrays
     - [Arrays in C](https://www.log2base2.com/C/array/arrays-in-c.html){:target='_blank'}
     - [Arrays and Strings](https://en.wikibooks.org/wiki/C_Programming/Arrays_and_strings){:target='_blank'}
 
-- Tic Tac Toe - review week 1
+- Tic Tac Toe 
+  - review [ttt_w01.c](ttt_w01.c){:target='_blank'}
   - ttt_w_array.c(ttt_w_array.c)
 
 - Mid-term on Monday
   - 30 Multiple Choice
     - [concepts and terms](midterm_review.md)
   - In class programming
-    - Push to week07 by end of class
-      - **OR** submit code to Moodle link (only if push issues)  -->
+    - Push to week08 by end of class
+      - **OR** submit code to Moodle link (only if push issues) 
 
 ---
 
 ### Assignments
-- TBD
-
-<!-- - char_test_v2.c
-- leap_year.c
-- ttt_array.c -->
+- char_test_v2.c
+- ttt_array.c 
 
 -  **Be sure to push your updates by the Sunday deadline.**
