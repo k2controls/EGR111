@@ -35,7 +35,7 @@ layout: default
 
 - more functions
   - [char_test.c](char_test.c){:target='_blank'} using ctype.h
-    - https://www.tutorialspoint.com/c_standard_library/ctype_h.htm
+    - [https://www.tutorialspoint.com/c_standard_library/ctype_h.htm](https://www.tutorialspoint.com/c_standard_library/ctype_h.htm){:target='_blank'}
     - copy to Repl and run
 
 - **Assigned:** char_test_v2.c
