@@ -7,8 +7,7 @@ layout: default
 ### [EGR111](../../) - [Sprint 3](../) - Week 8 
 
 - Midterm
-
-- [Multiple Choice](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__oklORZUM0k2N1Q2NFFINzVUUUVIMEVKUzVOME9MRy4u){:target='_blank'} (30 questions)
+  - [Multiple Choice](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__oklORZUM0k2N1Q2NFFINzVUUUVIMEVKUzVOME9MRy4u){:target='_blank'} (30 questions)
   - [Programming](midterm_prog.html){:target='_blank'} 
     - push your solution to the remote repository by the end of class.  
 
