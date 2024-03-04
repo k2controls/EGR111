@@ -40,14 +40,14 @@ Create a solution in C named **bike_gear_speed_calc.c** that Calculate your bike
     - declare required variables using appropriate data types base on website and solution video.
     - Print welcome and direction messaging for the user. See the solution video for example start up messaging.
     - **Determine a wheel circumference**
-        - Prompt the user for rim size and tire dimensions in mm as shown on the website and in the 0solution video.
-        - Determine a wheel circumference by calling your *get_circumference* function and passing in user specified value.
+        - Prompt the user for rim size and tire dimensions in mm as shown on the website and in the solution video.
+        - Determine a wheel circumference by calling your *get_circumference* function and passing in user specified values.
     
     - **Determine gear ratio**
         - Prompt the user for the number of teeth in the chainring.
         - Prompt the user for the number of teeth on the selected gear.
         - See the solution video for an example.
-        - Caculate a gear ratio dividing the number of teeth on the chainring by the number of teeth on the selected gear.
+        - Calculate a gear ratio by dividing the number of teeth on the chainring by the number of teeth on the selected gear.
 
     - **Determine pedal cadence**
         - Prompt the user for their pedal cadence in rpms.
