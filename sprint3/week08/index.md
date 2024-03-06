@@ -14,7 +14,9 @@ layout: default
 
 **Session 2**
 
-- Midterm Review
+- Headcold is hitting my hard. No class today. We'll pick up on Monday.
+
+<!-- - Midterm Review
   - MC Report
   - Coding 
     - grading in progress
@@ -31,7 +33,7 @@ layout: default
     - pair coding using repl
     - copy share URL to chat or send a message to me via Zoom.
   - Report-out on main solution
-  - Implement solution
+  - Implement solution -->
 
 ---
 
