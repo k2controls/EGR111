@@ -14,7 +14,7 @@ layout: default
 
 **Session 2**
 
-- Headcold is hitting my hard. No class today. We'll pick up on Monday.
+- Headcold is hitting me hard. No class today. We'll pick up on Monday.
 
 <!-- - Midterm Review
   - MC Report
