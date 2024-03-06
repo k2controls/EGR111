@@ -14,28 +14,28 @@ layout: default
 
 **Session 2**
 
-<!-- - Midterm Review
-  - See Moodle gradebook for score and rubric
+- Midterm Review
   - MC Report
-  - MPG solution
-    - data type for odometer?
-    - initialize values
-    - declaration of variables - location
-    - local variable vs parameter variables - same name?
+  - Coding 
+    - grading in progress
+    - solution
+    - use of AI? Class policy moving forward
 - tic tac toe project
   - solution
   - top down design
   - team solution - include team members in header
     - teams
-      - Chase, Lily?
-      - Jonathan, Mark?
+      - Team 1:
+      - Team 2:
+      - Team 3:
     - pair coding using repl
-    - copy share URL to chat or send a message to me via Zoom. -->
-
+    - copy share URL to chat or send a message to me via Zoom.
+  - Report-out on main solution
+  - Implement solution
 
 ---
 
 ### Assignments
 
 - Session 1 - midterm
-<!-- - Session 2 - tictactoe.c (in progress) -->
+- Session 2 - tictactoe.c (in progress) 
