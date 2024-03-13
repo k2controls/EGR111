@@ -9,15 +9,9 @@
 # 4. Use subdirectories as required
 # 5. *** src_dir must be updated ***
 
-# src_dir = sprint4/week10/__chkrs1_solution
-# src_dir = sprint4/week10/multi_files_w_test
-# src_dir = sprint4/week11/ttt_testing
-# src_dir = sprint4/week11/__chkrs3
-src_dir = sprint4/week12/__chkrsS1
-# src_dir = sprint5/week13/c_structs
+src_dir = week09/multi_files
 
-
-CC        := gcc
+CC      := gcc
 C_FLAGS := -ggdb -Wextra -Wall
 
 BIN     := bin
@@ -34,7 +28,7 @@ run: clean all
 	clear
 	./$(BIN)/$(EXECUTABLE)
 
-$(BIN)/$(EXECUTABLE): $(SRC)/*.c #$(SRC)/*.h
+$(BIN)/$(EXECUTABLE): $(SRC)/*.c 
 	$(CC) $(C_FLAGS) -I$(INCLUDE) $^ -o $@ $(LIBRARIES)
 
 clean:

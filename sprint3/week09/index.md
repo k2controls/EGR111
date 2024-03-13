@@ -29,7 +29,9 @@ layout: default
 
 **Session 2**
 
-<!-- - Multiple file solutions
+- ttt.c review
+
+- Multiple file solutions
   - Include files
   - Make files
   - Function declaration/definition review
@@ -96,7 +98,7 @@ void function2()
 - Run/debug function_02 test
 
 - Multiple files
-- Create main.c that calls functions_03
+- Create main.c that calls functions
 
 ```C
 #include "functions.h"
@@ -108,7 +110,7 @@ int main()
 }
 ```
 
-- revised functions_03.
+- revised functions
 
 ```C
 #include "functions.h"
@@ -149,11 +151,17 @@ Build:
 
 - Update makefile src_dir to point to current directory
 - Open terminal and enter make command. Note binary main in bin directory.
-- Set breakpoint in main(). Run debugger and verify breakpoint and debug.  -->
+- Set breakpoint in main(). Run debugger and verify breakpoint and debug. 
 
 --- 
 
 
 ### Assignments
 - tictactoe.c
-
+solution
+- week09 has the following directories and related files.
+    - multi_files (3 files)
+    - swap (3 files)
+    - ttt (1 files)
+- makefile
+- bin directory
