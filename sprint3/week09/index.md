@@ -137,7 +137,7 @@ void function2()
 # -g flag to generage debugger info
 # -o output file name
 Build:
-  gcc -g -o my_program main.c functions_03.c
+  gcc -g -o my_program main.c functions.c
 ```
 
 
