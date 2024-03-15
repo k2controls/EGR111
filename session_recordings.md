@@ -17,27 +17,27 @@
 - [02/21/2023](https://nmc.zoom.us/rec/share/Kxr-6d1vDEYgMzFBaf1G8fkxVf7uQVdXhAFIImueuoPLKzSuESmxxHzF5fCLLO58.4AQwd7kgaHXgEWJ8)
 - [02/26/2023](https://nmc.zoom.us/rec/share/L6JFIrzSOCqF6fWuM04zC8hwuvtHIjHcyOOsesA3T5Dni0Hg5sWIAzc7d-7ZsZt7.5r7K8zNd6U7TAaOA)
 - [02/28/2023](https://nmc.zoom.us/rec/share/jASVAiFOwOAAFV9cXP5ZM4Vx7qqqYyq67e7qYoxjz_ZBFOoXZIOVDai6eYs7Tw__.29_JIntGK0QMTdj0)
-- [03/05/2023]() <!-- test -->
-- [03/07/2023]()<!-- out sick -->
-- [03/12/2023](https://nmc.zoom.us/rec/share/TmRoLArtTC1QcCsgqFxGmEoQN2hPQZ4sReoi-zTq_265jGqjPO9bgpAIQf7h0gw.zZ-uT0bxcobgugWU)
-
+- [03/04/2023]() <!-- test -->
+- [03/06/2023]()<!-- out sick -->
+- [03/11/2023](https://nmc.zoom.us/rec/share/TmRoLArtTC1QcCsgqFxGmEoQN2hPQZ4sReoi-zTq_265jGqjPO9bgpAIQf7h0gw.zZ-uT0bxcobgugWU)
+- [03/13/2023](https://nmc.zoom.us/rec/share/RTXuXi_QVbH5LwqrVMep0XW3tAPSlddyxF331qbnUHSWOTP_OgiPB6AgS_clowkK.pKtA90TYiJcFWgfq)
 
 
 <!--
-- [03/14/2023]()
-- [03/19/2023]()
-- [03/21/2023]()
-- [03/26/2023]()
-- [03/28/2023]()
-- [04/02/2023]()
-- [04/04/2023]()
-- [04/09/2023]()
-- [04/11/2023]()
-- [04/16/2023]()
-- [04/18/2023]()
-- [04/23/2023]()
-- [04/25/2023]()
-- [04/30/2023]()
-- [05/02/2023]()
+
+- [03/18/2023]()
+- [03/20/2023]()
+- [03/25/2023]()
+- [03/27/2023]()
+- [04/01/2023]()
+- [04/03/2023]()
+- [04/08/2023]()
+- [04/10/2023]()
+- [04/15/2023]()
+- [04/17/2023]()
+- [04/22/2023]()
+- [04/24/2023]()
+- [04/29/2023]()
+- [05/01/2023]()
 
 -->
