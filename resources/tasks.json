@@ -5,7 +5,8 @@
             "label": "build",
             "type": "shell",
             "command": "make",
-            "group": "build"
+            "group": "build",
+            "args": ["clean", "all"]
         }
     ]
 }
