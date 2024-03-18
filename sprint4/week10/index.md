@@ -15,10 +15,11 @@ layout: default
 
 - ttt solution review
 
-- ttt (refactor of tic tac toe using pointers)
+- ttt_w_ptr
+  - refactor of tic tac toe using board pointer
 
 - Week 10 project - Checkers
-  - Requirement: Create a first version of checkers enabling Black and Red players to move their checkers to open spaces.
+  - Requirement: Create a first version of checkers enabling Black and Red players to move their checkers to open spaces. **No Jump move required!**
   - Process:
     1. Download starter files
     2. Work with your partner to analyze starter solution. Add comments. Be prepared to share.
@@ -37,7 +38,7 @@ wget https://k2controls.github.io/EGR111/sprint4/week10/chkrs/checkers.c
 - Here's a video showing game play for this early version. Note that jumping is not implemented.
   <video src="chk_starter_video.mp4" controls title="Checkers Game Play"></video>
 
-- Here's a [graphic](chkr_brd.pdf){:target='_blank'} showing checker starting positions and cell indexes.
+- Here's a [graphic](chkr_brd.pdf){:target='_blank'} showing checker starting positions and cell indexes. Note red position does not match existing code.
 - Edit your make file and run the code. The B12 checker is moved. 
 - Single step the code and not the methods provide as well as stub code used to move checker B12.
 - Step 1 - The instructor will break you into teams. Complete the code review with your team member adding significant comments describing the code function.
