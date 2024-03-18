@@ -1,3 +1,4 @@
+// 3/18/24
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -14,6 +15,7 @@
 
 #define NONE_SELECTED                   -1
 #define INVALID_POSITION                -1
+#define MOVE_COMPLETE                   0
 
 #define MOVE_UP_LEFT        7
 #define MOVE_UP_RIGHT       9
@@ -28,7 +30,7 @@ int get_checker_position(int* brd_ptr, int player);
 // bool is_black_position(int* brd_prt, int position);
 // bool is_red_position(int* brd_prt, int position);
 // bool is_empty_position(int* brd_prt, int position);
-// bool has_moves(int* brd_ptr, int selected_position);
+bool has_moves(int* brd_ptr, int selected_position);
 int get_move_direction();
 int get_next_position(int current_position, int move_direction);
 bool is_valid_position(int* brd_ptr, int next_position);
@@ -37,3 +39,5 @@ bool check_game_over(int* brd_ptr);
 int next_player(int current_player);
 void show_winner(int player);
 bool check_play_again();
+
+char input_char(void);

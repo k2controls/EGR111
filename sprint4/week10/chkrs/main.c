@@ -6,7 +6,7 @@
 // to moving checkers to open board spaces.
 // Refer to class discussion and recording provided.
 // Keith E. Kelly
-// 10/29/23
+// 3/18/24
 
 #include "checkers.h"
 
