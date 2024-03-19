@@ -21,11 +21,11 @@
 - [03/06/2023]()<!-- out sick -->
 - [03/11/2023](https://nmc.zoom.us/rec/share/TmRoLArtTC1QcCsgqFxGmEoQN2hPQZ4sReoi-zTq_265jGqjPO9bgpAIQf7h0gw.zZ-uT0bxcobgugWU)
 - [03/13/2023](https://nmc.zoom.us/rec/share/RTXuXi_QVbH5LwqrVMep0XW3tAPSlddyxF331qbnUHSWOTP_OgiPB6AgS_clowkK.pKtA90TYiJcFWgfq)
-
+- [03/18/2023](https://nmc.zoom.us/rec/share/gJklUAKnlLDhJZqEnK5x3hHC63XB0tkdXWlZM3dWIf0IjQrBUK3GDSCQ896I91rI.R-Gv-0WWpUHYCjTe)
 
 <!--
 
-- [03/18/2023]()
+
 - [03/20/2023]()
 - [03/25/2023]()
 - [03/27/2023]()
