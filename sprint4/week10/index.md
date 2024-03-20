@@ -51,7 +51,7 @@ wget https://k2controls.github.io/EGR111/sprint4/week10/chkrs/checkers.c
   - function review
 
 - Unit testing
-  - [Why Testable Code Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
+  - [Why Testable Code Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters){:target='_blank'}
   - A very simple testing framework
     - [acutest](https://github.com/mity/acutest){:target='_blank'}
     - wget https://k2controls.github.io/EGR111/resources/acutest.h
