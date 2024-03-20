@@ -56,8 +56,9 @@ wget https://k2controls.github.io/EGR111/sprint4/week10/chkrs/checkers.c
     - [acutest](https://github.com/mity/acutest){:target='_blank'}
     - wget https://k2controls.github.io/EGR111/resources/acutest.h
   
-  - A First Look: last session's *multiple_files*
-    - Use *wget* above to add acutest.h to *multiple_files* folder
+  - A First Look: last week's *multiple_files*
+    - copy week09's multi_files to week10
+    - Use *wget* above to add acutest.h to *multi_files* folder
     - Modify the functions.h header file to the following
     - Always include the TESTING definition in the header. This allows you to easily switch between test mode and the normal run of main().
   
