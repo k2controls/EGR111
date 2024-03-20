@@ -45,9 +45,10 @@ wget https://k2controls.github.io/EGR111/sprint4/week10/chkrs/checkers.c
         
 **Session 2**
 
-<!-- - chkrs - version 1: move to open spaces
+- chkrs - version 1: move to open spaces
   - status/report out  
   - [chkr_brd.pdf](chkr_brd.pdf){:target='_blank'}
+  - function review
 
 - Unit testing
   - [Why Testable Code Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
