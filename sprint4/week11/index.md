@@ -18,7 +18,7 @@ layout: default
 ```
 wget https://k2controls.github.io/EGR111/sprint4/week11/ttt_testing.zip
 ``` 
-- Checkers with Jump(version 3)
+- Checkers with Jump(version 2)
   - requirements
   - project structure
   - main
@@ -75,7 +75,7 @@ https://arduino.stackexchange.com/questions/45124/floating-point-without-fpu
 
 ### Assignments
 
-- Checkers version 3 
+- Checkers version 2 (with jump) 
 
 <!-- with unit test complete and passing
 - Continue investigation of version 3 - mods coming! -->
