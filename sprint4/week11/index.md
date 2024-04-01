@@ -74,8 +74,9 @@ https://arduino.stackexchange.com/questions/45124/floating-point-without-fpu
 ---
 
 ### Assignments
-
-- Checkers version 2 (with jump) 
+- Complete checkers version 1 (move only, in week10)
+- Study ttt_testing solution!
+- Checkers version 2 (with jump) - in progress 
 
 <!-- with unit test complete and passing
 - Continue investigation of version 3 - mods coming! -->
