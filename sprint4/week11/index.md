@@ -48,15 +48,15 @@ wget https://k2controls.github.io/EGR111/sprint4/week11/chkrs3_w_jump.zip
 
 **Session 2**
 
-<!-- - Checker Board [image](chkr_brd.pdf){:target='_blank'}
 - Strings - review from Session 1
   - Array of char
   - functions in strings.h
-- Review of string tests
-- More testing
-- Discussion of move/jump issue and resolution
+- [strings in C](https://www.geeksforgeeks.org/strings-in-c/){:target='_blank'}
+- Strings - operations and functions
+  - [strcpy](https://www.geeksforgeeks.org/strcpy-in-c/){:target='_blank'}
+  - [strcat](https://www.geeksforgeeks.org/strcat-in-c/){:target='_blank'}
+  - [strcmp](https://www.geeksforgeeks.org/strcmp-in-c/){:target='_blank'}
 
- 
 - bitwise operations
 ```
       X	Y	||  X&Y	X|Y	X^Y
@@ -68,8 +68,6 @@ wget https://k2controls.github.io/EGR111/sprint4/week11/chkrs3_w_jump.zip
 
 https://www.programiz.com/c-programming/bitwise-operators
 
-https://arduino.stackexchange.com/questions/45124/floating-point-without-fpu
-     -->
 
 ---
 
