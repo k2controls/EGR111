@@ -1,3 +1,8 @@
+// EGR111 - chkrs_v2
+// - king moves are supported
+// - make_king is #TODO
+// Keith E. Kelly
+// 4/8/2024
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>

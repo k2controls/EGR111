@@ -1,3 +1,10 @@
+// EGR111 - chkrs_v2
+// is_valid_jump not implemented #TODO
+// jump_checker not implemented #TODO
+// - king moves are supported
+// - make_king is #TODO
+// Keith E. Kelly
+// 4/8/2024
 #include "checkers.h"
 
 void make_board(int *brd_ptr)

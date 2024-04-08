@@ -1,3 +1,7 @@
+// EGR111 - unit tests for chkrs_v2
+// Keith E. Kelly
+// 4/8/2024
+
 #include "checkers.h"
 
 #if TESTING
