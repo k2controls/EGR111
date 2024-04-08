@@ -36,6 +36,7 @@ layout: default
   - keep week11 chkrs_v2 for now.
   - create week12
   - create week12/chkrs_v2
+  - copy acutest.h to target
   - install the following. There is no main.c at this time.
 
 ```
@@ -44,7 +45,12 @@ wget https://k2controls.github.io/EGR111/sprint4/week12/chkrs_v2/checkers.c
 wget https://k2controls.github.io/EGR111/sprint4/week12/chkrsv2/test_checkers.c
 
 ```
-- Run code (test), jump fails
+
+- Revise make file sourceand run code (tests).
+  - Fails
+    - jump not implemented - #TODO
+    - comment out line 452 for now
+    - 3 of 24 unit tests fail
 - Review bitwise operations
   - [BitwiseDiscussion.xlsx](BitwiseDiscussion.xlsx)
   - Review checker flags - BLACK,RED, KING, NO_PLAY_CELL
@@ -52,12 +58,9 @@ wget https://k2controls.github.io/EGR111/sprint4/week12/chkrsv2/test_checkers.c
   - Review fill black, fill red, is red, is black functions
 - chkrs_v2 requirements
   - Review team requirements in Kanban board (Trello)
-  - Discuss and enter Acceptance Criteria
-  - Assign task to team members
-
-
-
-
+  - Discuss and enter "Acceptance Criteria"
+  - Assign tasks to team members
+  - Team scrum/stand-up/status report next Monday
 
 
 **Session 2**
@@ -89,4 +92,4 @@ wget https://k2controls.github.io/EGR111/sprint4/week12/chkrsv2/test_checkers.c
 - [dynamic-memory-allocation](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/){:target='_blank'} -->
 
 ### Assignments
-- chkrs_v2 
+- chkrs_v2 - in progress, progress reported in next week's stand up. 
