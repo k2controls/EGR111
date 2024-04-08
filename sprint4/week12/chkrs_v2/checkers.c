@@ -244,25 +244,10 @@ bool is_valid_move(int *brd_ptr, int *cell_ptr, int move_vector)
 bool is_valid_jump(int *brd_ptr, int *cell_ptr, int move_vector)
 {
     // returns true if valid jump move
-    int *next_cell_ptr = INVALID_CELL_PTR;
-    int *next_next_cell_ptr = INVALID_CELL_PTR;
-    int player = 0;
     bool is_valid = false;
 
-    if (is_valid_move_vector(cell_ptr, move_vector))
-    {
-        next_cell_ptr = get_next_cell_ptr(brd_ptr, cell_ptr, move_vector);
-        next_next_cell_ptr = get_next_cell_ptr(brd_ptr, next_cell_ptr, move_vector);
-        player = get_cell_owner(cell_ptr);
-        if (is_valid_cell_ptr(brd_ptr, next_cell_ptr) && is_valid_cell_ptr(brd_ptr, next_next_cell_ptr))
-        {
-            if (is_foe_cell(next_cell_ptr, player))
-                if (is_empty_cell(next_next_cell_ptr))
-                {
-                    is_valid = true;
-                }
-        }
-    }
+    // #TODO
+
     return is_valid;
 }
 
@@ -285,22 +270,10 @@ int *move_checker(int *brd_ptr, int *cell_ptr, int move_vector)
 int *jump_checker(int *brd_ptr, int *cell_ptr, int move_vector)
 {
     // returns pointer to new location if jump. No jump returns null
-    int *next_cell_ptr = INVALID_CELL_PTR;
-    int *next_next_cell_ptr = INVALID_CELL_PTR;
     int *new_cell_ptr = INVALID_CELL_PTR;
 
-    if (is_valid_jump(brd_ptr, cell_ptr, move_vector))
-    {
-        next_cell_ptr = get_next_cell_ptr(brd_ptr, cell_ptr, move_vector);
-        next_next_cell_ptr = get_next_cell_ptr(brd_ptr, next_cell_ptr, move_vector);
-        // move attacker
-        *(next_next_cell_ptr) = *(cell_ptr);
-        *(cell_ptr) = EMPTY_CELL_VALUE;
-        // remove foe
-        *(next_cell_ptr) = EMPTY_CELL_VALUE;
-        new_cell_ptr = next_next_cell_ptr;
-    }
-
+    // #TODO
+    
     return new_cell_ptr;
 }
 
