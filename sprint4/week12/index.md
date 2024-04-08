@@ -31,8 +31,13 @@ layout: default
   - Session 2 - No class, final project due at end of the day    
   
 **Session 1**
-
+  
 - Chkrs_v2 - install on to Pi
+  - keep week11 chkrs_v2 for now.
+  - create week12
+  - create week12/chkrs_v2
+  - install the following. There is no main.c at this time.
+
 ```
 wget https://k2controls.github.io/EGR111/sprint4/week12/chkrs_v2/checkers.h
 wget https://k2controls.github.io/EGR111/sprint4/week12/chkrs_v2/checkers.c
