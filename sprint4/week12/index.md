@@ -65,14 +65,19 @@ wget https://k2controls.github.io/EGR111/sprint4/week12/chkrsv2/test_checkers.c
 
 **Session 2**
 
-<!-- - Chkrs4 - team coding
-  - Requirements review
-  - status?
-  - Monday demo
-  - Push Monday's solution
-- Chkrs5 demo on Monday
-  - No Wednesday class, no work due
+[checker board image](chkr_brd.pdf){:target='_blank'}
 
+- chkrs_v2 - in progress
+  - Requirements - see Kanban (on Trello)
+  - Monday scrum
+    - What have I done?
+    - What do I need to do?
+    - What impedements or blockers
+  - Be sure you're pushing code by Monday
+
+- Memory concepts - data on the stack
+  - [bad demo code](chkrs_on_stack/main.c)   
+  - [image of stack](chkrs_on_stack/checkers_on_stack.pdf) {:target='_blank'}   
 - Memory concepts - allocating heap
   - [Pointers and dynamic memory - stack vs heap](https://www.youtube.com/watch?v=_8-ht2AKyH4&ab_channel=mycodeschool){:target='_blank'}
     - four sections
@@ -89,7 +94,7 @@ wget https://k2controls.github.io/EGR111/sprint4/week12/chkrsv2/test_checkers.c
   - ![board factory](board_factory_call.jpg)
   - ![board factory implmentation](board_factory_allocated.jpg)
 
-- [dynamic-memory-allocation](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/){:target='_blank'} -->
+- [dynamic-memory-allocation](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/){:target='_blank'}
 
 ### Assignments
 - chkrs_v2 - in progress, progress reported in next week's stand up. 
