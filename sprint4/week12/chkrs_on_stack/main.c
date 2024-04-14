@@ -12,14 +12,14 @@ int main(void)
 {
     // call a function to make a board
     // FIRST TRY - this is a problem
-    int* board_ptr = make_board();
-    draw_board(board_ptr);
+    // int* board_ptr = make_board();
+    // draw_board(board_ptr);
 
     // SECOND TRY - this is correct
-    // int board[64];  //int board[8][8];
-    // board_ptr = &board[0];
-    // make_board2(board_ptr);
-    // draw_board(board_ptr);
+    int board[64];  //int board[8][8];
+    int* board_ptr = &board[0];
+    make_board2(board_ptr);
+    draw_board(board_ptr);
     return 0;
 }
 
