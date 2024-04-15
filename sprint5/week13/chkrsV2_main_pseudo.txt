@@ -57,5 +57,5 @@ int get_selected_move_vector_from_user(int* brd_ptr, int*chkr_ptr, bool has_jump
         // else if valid move
             // return move vector
         // else
-            // inform use of invalid. A jump is required.
+            // inform use of invalid. A move is required.
 }
