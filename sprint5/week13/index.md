@@ -30,7 +30,7 @@ layout: default
 
 **Session 2**
 
-<!-- - Structures
+- Structures
   - [C Structures](https://www.geeksforgeeks.org/structures-c/?ref=lbp){:target='_blank'}
 
 ```C
@@ -47,7 +47,7 @@ typedef struct Checker
 ```  
 
 - test_checker.c
-- checker_factory.c -->
+- checker_factory.c
 
 ---
 
