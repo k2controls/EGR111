@@ -28,8 +28,9 @@ wget https://k2controls.github.io/EGR111/sprint5/week15/sblackjack/test_sblackja
 - Review the solution files provided.
   - The sblackjack.h file provides all required declarations including the TESTING flag used to swap between the main and test code.
   - The sblackjack.c file contains required function definitions but many have #TODO requiring you to create the code required for implementation.
-  - The test_sblackjack file contains unit tests for all functions declared in the sblackjack.h file.
-  - The main.c file contains most of the main code to play the Simple BlackJack game. It does not include the "hit" code required for both player and dealer. See TODO comments.
+  - The test_sblackjack file contains unit tests for all functions declared in the sblackjack.h file. This file is complete and does not require additions or modification.
+  - The main.c file contains most of the main code to play the Simple BlackJack game. It **does not** include the "hit" code required for both player and dealer. See TODO comments.
+  - Directions
     - Access the sblackjack.c file and define/create the required code.
     - Test your sblackjack functions using the unit tests provided in the test_sblackjack.c file. See [SBlackJack Videos](sbj_videos.md){:target='_blank'} page for a video of the unit tests being successfully run.
     - With the required sblackjack functions defined, switch to the main function to test initial game play. The solution functions but is missing the "hit" operations for both player and dealer. See See [SBlackJack Videos](sbj_videos.md){:target='_blank'} page for a video of the initial game play without the required hit operations added.
