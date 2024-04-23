@@ -86,6 +86,7 @@ int get_card_suit(int* card_ptr)
 
 char get_card_suit_char(int suit)
 {
+    //return suit character
     char card_suit;
 
     switch(suit)
@@ -118,6 +119,7 @@ int get_card_rank(int* card_ptr)
 
 char get_card_rank_char(int rank)
 {
+    // returns rank character
     char card_char;
 
     switch(rank)
@@ -178,25 +180,10 @@ void show_card(int* card_ptr)
 
 int get_card_face_value(int* card_ptr)
 {
-    int face_value = 0;
-    int rank = get_card_rank(card_ptr);
-    switch(rank)
-    {
-        case NO_CARD:
-            face_value = 0;
-            break;
-        case ACE:
-            face_value = 11;
-            break;
-        case KING:
-        case QUEEN:
-        case JACK:
-        case TEN:
-            face_value = 10;
-            break;
-        default:
-            face_value = rank;
-            break;    
-    }
-    return face_value;
+    // returns card value
+    // Aces are 11, facecards (K,Q,J) are 10
+    // others - value = rank (e.g. 9H = 9)
+
+    // #TODO
+
 }
