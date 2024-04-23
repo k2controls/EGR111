@@ -8,14 +8,14 @@ layout: default
 <hr>
 
 **S BlackJack Testing**
-<video width="320" height="240" src="sbj_testing.mp4" controls title="sblackjack testing"></video>
+<video width="640" height="480" src="sbj_testing.mp4" controls title="sblackjack testing"></video>
 
 <hr>
 
 **S BlackJack Initial Game Play**
-<video src="sbj_initial_game_play.mp4" controls title="Initial Game Play"></video>
+<video width="640" height="480" src="sbj_initial_game_play.mp4" controls title="Initial Game Play"></video>
 
 <hr>
 **S BlackJack Final Game Play**
-<video src="sbj_final_game_play.mp4" controls title="Final Game Play"></video>
+<video width="640" height="480" src="sbj_final_game_play.mp4" controls title="Final Game Play"></video>
 
