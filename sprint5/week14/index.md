@@ -40,13 +40,14 @@ layout: default
 
 **Session 2**
 
-<!-- - [Persistance](https://en.wikipedia.org/wiki/Persistence_(computer_science))
+- [Persistance](https://en.wikipedia.org/wiki/Persistence_(computer_science))
   - [What is a relational database management system?](https://www.codecademy.com/article/what-is-rdbms-sql){:target='_blank'}
   - [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete){:target='_blank'}
   - [CRUD using MySQL](https://www.geeksforgeeks.org/crud-operations-in-mysql){:target='_blank'}
   - [NoSQL](https://www.codecademy.com/article/introduction-to-nosql){:target='_blank'}
-  - [REST webservices](https://www.geeksforgeeks.org/rest-api-introduction/){:target='_blank'} -->
+  - [REST webservices](https://www.geeksforgeeks.org/rest-api-introduction/){:target='_blank'}
 
+- Week 15 final project install
 ---
 
 ### Assignments
