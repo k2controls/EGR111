@@ -8,7 +8,7 @@ layout: default
 <hr>
 
 **S BlackJack Testing**
-<video src="sbj_testing.mp4" controls title="sblackjack testing"></video>
+<video width="320" height="240" src="sbj_testing.mp4" controls title="sblackjack testing"></video>
 
 <hr>
 
