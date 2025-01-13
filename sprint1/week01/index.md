@@ -10,6 +10,7 @@ layout: default
 - Welcome and [Course Introduction](001.CourseIntro.pdf){:target="_blank"}
 - Student introductions
 - [RPi Kit Introduction](002.KitIntro.pdf){:target="_blank"}
+- Creating a Remote Connection - preview
 - [C Language Introduction](003.CProgrammingIntro.pdf){:target="_blank"}
     
 **Session 2**
