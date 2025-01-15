@@ -52,6 +52,7 @@ int main()
   - See Creating a Remote Connection for updated TigerVNC connection.
 
 - Connection status? - report-out
+
 <!-- - [Introduction to Linux](007.LinuxIntro.pdf){:target="_blank"} (Instructor Demo Only)
 - [Introduction to VS Code](008.VSCodeIntro.pdf){:target="_blank"} (Instructor Demo Only) -->
 
