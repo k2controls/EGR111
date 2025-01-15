@@ -33,7 +33,8 @@ layout: default
   
 - Introduction to C
   - [Learn to Code with C](../../resources/Essentials_C_v1.pdf){:target="_blank"} - Chapter 1
-  - [https://replit.com/languages/c](https://replit.com/languages/c){:target="_blank"}
+
+  <!-- - [https://replit.com/languages/c](https://replit.com/languages/c){:target="_blank"} -->
 
 <!-- #include <stdio.h>
 
