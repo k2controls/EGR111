@@ -18,7 +18,8 @@ layout: default
   - Largest binary number? 2<sup>n</sup> - 1
   - **Assigned:** - [Number systems worksheet](hexadecimaloctalnumbersystems.docx)
 
-  <!-- - [https://replit.com/languages/c](https://replit.com/languages/c){:target="_blank"} -->
+- A first look a C code
+  - [https://replit.com/languages/c](https://replit.com/languages/c){:target="_blank"}
 
 <!-- #include <stdio.h>
 
@@ -41,10 +42,18 @@ int main()
 - [Introduction to Linux](007.LinuxIntro.pdf){:target="_blank"} (Instructor Demo Only)
 - [Introduction to VS Code](008.VSCodeIntro.pdf){:target="_blank"} (Instructor Demo Only)
 
+- Git, GitHub introduction
+  - - [https://github.com/](https://github.com/){:target="_blank"}
+
 **Session 2**
+  
+
+<!-- 
+
+- computer system review - loading OS, software
 
 
-<!-- - [RPi Startup](../week01/006.RPiStartup.pdf){:target="_blank"}
+- [RPi Startup](../week01/006.RPiStartup.pdf){:target="_blank"}
   - hostname is raspberrypi.local (assuming Ethernet connection)
   - usename = pi, password = changeme
   - Update hostname - example EGR_SP24
