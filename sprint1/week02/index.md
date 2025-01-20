@@ -41,10 +41,16 @@ resources/CreatingARemoteConnection.pdf
     - Connection status? - report-out
 
 - [Introduction to Linux](007.LinuxIntro.pdf){:target="_blank"} (Instructor Demo Only)
-- [Introduction to VS Code](008.VSCodeIntro.pdf){:target="_blank"} (Instructor Demo Only)
+
+- [Introduction to VS Code](008.VSCodeIntro.pdf){:target="_blank"} 
 
 - Git, GitHub introduction
-  - - [https://github.com/](https://github.com/){:target="_blank"}
+  - [https://github.com/](https://github.com/){:target="_blank"}
+  - [Git Hub Introduction and Setup](Git_GitHub.pdf){:target="_blank"}
+
+
+
+
 
 **Session 2**
   
