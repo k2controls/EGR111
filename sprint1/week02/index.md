@@ -33,11 +33,12 @@ int main()
   return 0;
 } -->
 
-- [Raspberry Pi Startup](006.RPiStartup.pdf){:target="_blank"} (Instructor Demo Only)
-  - Note: RealVNC VNC Viewer is no longer used
-  - See Creating a Remote Connection for updated TigerVNC connection.
-
-- Connection status? - report-out
+resources/CreatingARemoteConnection.pdf
+- Raspberry Pi Startup
+  - [Creating A Remote Connection](../../resources/CreatingARemoteConnection.pdf){:target="_blank"} 
+    - Note: RealVNC VNC Viewer is no longer used
+    - See Creating a Remote Connection for updated TigerVNC connection
+    - Connection status? - report-out
 
 - [Introduction to Linux](007.LinuxIntro.pdf){:target="_blank"} (Instructor Demo Only)
 - [Introduction to VS Code](008.VSCodeIntro.pdf){:target="_blank"} (Instructor Demo Only)
