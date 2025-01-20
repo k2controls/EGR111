@@ -34,30 +34,6 @@ layout: default
 - Introduction to C
   - [Learn to Code with C](../../resources/Essentials_C_v1.pdf){:target="_blank"} - Chapter 1
 
-  <!-- - [https://replit.com/languages/c](https://replit.com/languages/c){:target="_blank"} -->
-
-<!-- #include <stdio.h>
-
-int main() 
-{
-  printf("Keith says...");
-  printf("Hello World\n");
-  // the is a comment
-  /* the is a multi line comment
-  a second line*/  
-  return 0;
-} -->
-
-- [Raspberry Pi Startup](006.RPiStartup.pdf){:target="_blank"} (Instructor Demo Only)
-  - Note: RealVNC VNC Viewer is no longer used
-  - See Creating a Remote Connection for updated TigerVNC connection.
-
-- Connection status? - report-out
-
-<!-- - [Introduction to Linux](007.LinuxIntro.pdf){:target="_blank"} (Instructor Demo Only)
-- [Introduction to VS Code](008.VSCodeIntro.pdf){:target="_blank"} (Instructor Demo Only) -->
-
-
 ---
 
 ### Assignments
