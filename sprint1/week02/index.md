@@ -33,7 +33,6 @@ int main()
   return 0;
 } -->
 
-resources/CreatingARemoteConnection.pdf
 - Raspberry Pi Startup
   - [Creating A Remote Connection](../../resources/CreatingARemoteConnection.pdf){:target="_blank"} 
     - Note: RealVNC VNC Viewer is no longer used
