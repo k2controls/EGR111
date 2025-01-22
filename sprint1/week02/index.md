@@ -40,36 +40,50 @@ resources/CreatingARemoteConnection.pdf
     - See Creating a Remote Connection for updated TigerVNC connection
     - Connection status? - report-out
 
-- [Introduction to Linux](007.LinuxIntro.pdf){:target="_blank"} (Instructor Demo Only)
+<!-- - [Introduction to Linux](007.LinuxIntro.pdf){:target="_blank"} (Instructor Demo Only) -->
 
 - [Introduction to VS Code](008.VSCodeIntro.pdf){:target="_blank"} 
 
-- Git, GitHub introduction
-  - [https://github.com/](https://github.com/){:target="_blank"}
-  - [Git Hub Introduction and Setup](Git_GitHub.pdf){:target="_blank"}
-
-
-
-
 
 **Session 2**
+
+- Raspberry Pi Startup (introduced during session 1)
+  - [Creating A Remote Connection](../../resources/CreatingARemoteConnection.pdf){:target="_blank"} 
+      - hostname is nmc_pi.local (assuming Ethernet connection)
+      - username = pi, password = changeme
+      - Change password 
+        - if you forget, you start over!
+        - You _may_ be able to reset with monitor connected
+      - Reboot and reconnect with new password
+      - Add Wi-Fi connection and verify Internet connection
+
+- Git, GitHub introduction
+  - [Git Hub Introduction and Setup](Git_GitHub.pdf){:target="_blank"}
+
+<!-- - With the EGR111 open in VS Code on the Pi
+  - Create a week02 directory
+  - Create hello.c in week02
+  - Compile and run your first program -->
+
+- - [Visual Studio Code Introduction](008.VSCodeIntro.pdf){:target="_blank"}
+  - wget https://k2controls.github.io/EGR111/sprint1/week02/hello.c
+  - wget https://k2controls.github.io/EGR111/sprint1/week02/c_version.c
+  - Complete the activity and verify the following files are in your week02 directory
+    - c_version
+    - c_version.c
+    - hello
+    - hello.c
+
+
   
+
 
 <!-- 
 
 - computer system review - loading OS, software
 
 
-- [RPi Startup](../week01/006.RPiStartup.pdf){:target="_blank"}
-  - hostname is raspberrypi.local (assuming Ethernet connection)
-  - usename = pi, password = changeme
-  - Update hostname - example EGR_SP24
-  - Change password (if you forget, you start over!)
-  - Reboot and reconnect with save password checked
-- Linux terminal - directories and files
-  - create EGR111_temp  (mkdir)
-  - move to EGR111_temp  (cd)
-  - create week01 and week02 subdirectories
+
 - [Steps for C Program Execution](https://www.slideshare.net/rummanansari7355/steps-for-c-program-execution){:target="_blank"}
   - [Preprocessing](https://www.log2base2.com/C/basic/preprocessor-in-c.html)
 - [Visual Studio Code Introduction](../week01/008.VSCodeIntro.pdf){:target="_blank"}
@@ -186,18 +200,13 @@ resources/CreatingARemoteConnection.pdf
 
 ### Assignments 
 - Number systems worksheet - submit to Moodle link
-- Workspace on Pi *(not submitted at this time)*
-  - EGR111_temp
-    - week01
+- Code pushed to GitHub?
+  - EGR111
     - week02
       - c_version
       - c_version.c
       - hello
       - hello.c
-      - grocery_bill
-      - grocery_bill.c
-      - time_convert
-      - time_convert.c
 
 
 
