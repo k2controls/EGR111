@@ -64,7 +64,7 @@ int main()
   - Create hello.c in week02
   - Compile and run your first program -->
 
-- - [Visual Studio Code Introduction](008.VSCodeIntro.pdf){:target="_blank"}
+- [Visual Studio Code Introduction](008.VSCodeIntro.pdf){:target="_blank"}
 
 ```console
   wget https://k2controls.github.io/EGR111/sprint1/week02/hello.c
@@ -76,6 +76,8 @@ int main()
     - c_version.c
     - hello
     - hello.c
+  - Push to your GitHub account
+  - Verify files are on GitHub
 
 
   
