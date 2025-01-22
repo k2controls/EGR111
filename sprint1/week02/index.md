@@ -66,8 +66,12 @@ resources/CreatingARemoteConnection.pdf
   - Compile and run your first program -->
 
 - - [Visual Studio Code Introduction](008.VSCodeIntro.pdf){:target="_blank"}
-  - wget https://k2controls.github.io/EGR111/sprint1/week02/hello.c
-  - wget https://k2controls.github.io/EGR111/sprint1/week02/c_version.c
+
+```console
+  wget https://k2controls.github.io/EGR111/sprint1/week02/hello.c
+  wget https://k2controls.github.io/EGR111/sprint1/week02/c_version.c
+```
+
   - Complete the activity and verify the following files are in your week02 directory
     - c_version
     - c_version.c
