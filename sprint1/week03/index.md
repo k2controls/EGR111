@@ -12,7 +12,7 @@ layout: default
 **Session 2**
 - Week 02 review 
   - Number systems binary, decimal, hex
-  - [RPi Startup](../week01/006.RPiStartup.pdf){:target="_blank"}
+  - Creating A Remote Connection - see Tools or Week02
     - hostname is nmc-pi.local with point to point Ethernet connection
     - hostname is nmc-pi with network connection
     - hostname can be changed by user but this is option
@@ -26,6 +26,7 @@ layout: default
   - move to parent: cd ..
 
 - GitHub remote repository
+  - See week02 link
   - Several still need to push week02 code
   - See Keith's local repositories
 
