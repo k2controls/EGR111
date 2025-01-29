@@ -193,7 +193,8 @@ scanf("%f", &fahrenheit);
 - Grocery Bill Estimator
   - create grocery_bill.c in your week03 directory
   - The following pairs as assigned
-    - Christian, Shane, Nick
+    - Christian, Dylan
+    - Shane, Nick
     - Alex, Lily
     - Ellington, Drew
     - Sahil, Jaron
