@@ -14,8 +14,7 @@ layout: default
   - Yes! All pushed to remote GitHub repository.
 
 - [Steps for C Program Execution](https://www.slideshare.net/rummanansari7355/steps-for-c-program-execution){:target="_blank"}
-  Here are the 7 topics for your outline:
-
+  
   1. **Introduction to Compilation and Program Execution**
   2. **The Compilation Process**
   3. **Linking Process**
