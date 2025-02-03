@@ -8,7 +8,7 @@ layout: default
 
 **Session 1**
 - grocery_bill.c - code review
-  - syle
+  - style
   - variable declaration and use
   - data types and format specifiers.
   - Yes! All pushed to remote GitHub repository.
