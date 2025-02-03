@@ -32,7 +32,8 @@ layout: default
   - [Operators in C](https://www.geeksforgeeks.org/operators-in-c/){:target="_blank"}
   - [Operator Precedence and Associativity in C](https://www.geeksforgeeks.org/operator-precedence-and-associativity-in-c/){:target="_blank"}
 
-- Variables and Operators - Outline
+- Variables and Operators 
+
 ### **1. Introduction to Variables in C**
    - **Data types**: 
      - **Primitive Types**: Integer (`int`), floating-point (`float`, `double`), and character (`char`).
