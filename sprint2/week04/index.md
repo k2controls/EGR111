@@ -48,6 +48,7 @@ layout: default
 
 ### **3. Arithmetic Operators in C**
    - **Basic Arithmetic Operators**: (`+`, `-`, `*`, `/`, `%`).
+    - The modulus operator in C is used to find the remainder of the division of two integers
    - **Precedence and Associativity**:
    - **Increment and Decrement Operators**: (`++`, `--`).
      - Difference between pre-increment (`++x`) and post-increment (`x++`).
