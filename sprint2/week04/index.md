@@ -92,7 +92,48 @@ wget https://k2controls.github.io/EGR111/sprint2/week04/c-f_convert.c
   
 
 **Session 2**
-- 
+- Session 1 review
+  - [Structure and Style](https://en.wikibooks.org/wiki/C_Programming/Structure_and_style){:target="_blank"}
+
+- *Assigned:* time_convert.c
+    - Use #define preprocessor directive as specified
+    - Upper case used for constants. Lower case used for variables
+    - Underscore character `_` used to separate words
+    - Section code using white space
+    - Brackets `{}` aligned at same tab 
+    - Indentation used to identify code blocks
+
+- Learn to Code with C (see Tools on Moodle)
+  - CHAPTER TWO - VARIABLES & ARITHMETIC
+  - Review!
+  - Data Types in C
+    - AI Prompt: "What data types are available in the C programming language?"
+    - AI Prompt: "How many bytes of storage is used for an int data type in C language?"
+  - scanf() review
+    - [Simple Input and Output](https://en.wikibooks.org/wiki/C_Programming/Simple_input_and_output){:target="_blank"}
+  - [Basic Operators](https://www.log2base2.com/C/operator/operator-in-c.html){:target="_blank"}
+
+- *Assigned:* Tic Tac Toe Board solution
+  - use the wget instruction below to copy the starter code into the directory. Complete the coding as directed.
+    - wget https://k2controls.github.io/EGR111/sprint2/week04/tictactoe_brd.c
+
+- *Assigned:* Smallest Bills solution
+  - Create a solution that prompts the user to enter a dollar amount and then displays how to pay that amount using the smallest number of $20, $10, $5, and $1 bills.
+  - You are using integers and integer division throughout, not floating-point numbers. 
+  - Use the following to download starter code
+    - wget https://k2controls.github.io/EGR111/sprint2/week04/smallest_bills.c
+
+- **In-class Activity**
+  - The instructor will review the Office Space Calculator found [here](https://www.squarefoot.com/office-space-calculator){:target="_blank"}.
+  - The instructor will divide the class into teams using the Zoom breakout room feature.
+  - Review the Calculator site with your team member
+  - Have one team member create the solution file and then invite your partner to join using a Live Share link in the Zoom chat feature.
+  - Create the office_space.c solution that reproduces the service of the office space calculator.
+  - Add comments at the beginning identifying the project and listing the team member names.
+  - Use the **#define** preprocessor macro and use this to specify space requirements for work space, private office, conference room, kitchen, and utility room. 
+  - Set the space per employee to the Spacious value shown in the drop down.
+  - Run and test your code. Use the website to validate your results.
+  - Be sure both partners have a copy of the final code in this week's directory in the EGR111 workspace. 
 
 ---
 
