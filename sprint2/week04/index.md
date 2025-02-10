@@ -4,7 +4,7 @@ layout: default
 
 ## EGR 111 - Introduction to Computer Science (C Programming)
 
-### [EGR111](../../) - [Sprint 1](../) - Week 04
+### [EGR111](../../) - [Sprint 2](../) - Week 04
 
 **Session 1**
 - grocery_bill.c - code review

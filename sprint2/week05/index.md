@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+## EGR 111 - Introduction to Computer Science (C Programming)
+
+### [EGR111](../../) - [Sprint 2](../) - Week 05
+
+**Session 1**
+
+- *Enable Auto-Fetch:* VS Code has a setting to automatically fetch changes from the remote repository. Go to File > Preferences > Settings (or press Ctrl+,), then search for git.autofetch and enable it.
+
+- Week 4 review
+  - Tic Tac Toe Board solution
+  - Smallest Bills solution
+  - Office Space Calculator solution
+
+- [Implicit and Explicit Type Conversion (typecasting)](https://www.guru99.com/c-type-casting.html){:target='_blank'}
+
+- What's next - Program structure - statements
+  - Selection (conditional)
+    - if/else
+    - switch
+  - Interation (looping)
+    - while, do, for
+  - Jump
+    - return
+    - break, continue
+    - goto  //DO NOT USE THIS
+
+- Use of the #define macro and the *const* qualifier.
+  - [https://www.freecodecamp.org/news/constants-in-c-explained-how-to-use-define-and-const-keyword/](https://www.freecodecamp.org/news/constants-in-c-explained-how-to-use-define-and-const-keyword/){:target='_blank'}
+
+- [Selection Structure](https://www.log2base2.com/C/control/if-statement-in-c.html){:target='_blank'}
+
+  - [Grading solution](https://www.log2base2.com/C/control/nested-if-else-statement-in-c.html){:target='_blank'} - refactor
+    - wget https://k2controls.github.io/EGR111/sprint2/week05/letter_grade.c
+    - refactor letter grade
+
+  - Refactor Office Space
+
+- This week assignments
+  - [Solar Panel Calculator](SolarPanelCalculator.pdf){:target="_blank"}
+  - break-out - discuss requirements and approach to Solar Panel Calculator
+
+
+**Session 2**
+
+---
+
+### Assignments 
+Push week05 updates to your remote repo
+  - EGR111
+    - +week01
+    - +week02
+    - +week03
+    - +week04
+    - -week05
+      - letter_grade
+      - letter_grade.c
+      - rgb_color_convert
+      - rgb_color_convert.c
+      - solar_panel_calc
+      - solar_panel_calc.c
+    - gitignore
+    - README.md
+
+
+
+
+
