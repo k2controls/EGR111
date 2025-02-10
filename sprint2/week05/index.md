@@ -10,6 +10,13 @@ layout: default
 
 - *Enable Auto-Fetch:* VS Code has a setting to automatically fetch changes from the remote repository. Go to File > Preferences > Settings (or press Ctrl+,), then search for git.autofetch and enable it.
 
+- Unable to sync? Enter the following at the terminal prompt.
+
+```console
+git pull --rebase
+git push --force
+```
+
 - Week 4 review
   - Tic Tac Toe Board solution
   - Smallest Bills solution
