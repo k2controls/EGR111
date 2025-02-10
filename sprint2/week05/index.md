@@ -39,7 +39,7 @@ git push --force
   - [https://www.freecodecamp.org/news/constants-in-c-explained-how-to-use-define-and-const-keyword/](https://www.freecodecamp.org/news/constants-in-c-explained-how-to-use-define-and-const-keyword/){:target='_blank'}
 
 - [Selection Structure](https://www.log2base2.com/C/control/if-statement-in-c.html){:target='_blank'}
-
+  - Chapter 3 - see text in Tools
   - [Grading solution](https://www.log2base2.com/C/control/nested-if-else-statement-in-c.html){:target='_blank'} - refactor
        - refactor letter grade
 
