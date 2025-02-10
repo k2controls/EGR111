@@ -41,8 +41,11 @@ git push --force
 - [Selection Structure](https://www.log2base2.com/C/control/if-statement-in-c.html){:target='_blank'}
 
   - [Grading solution](https://www.log2base2.com/C/control/nested-if-else-statement-in-c.html){:target='_blank'} - refactor
-    - wget https://k2controls.github.io/EGR111/sprint2/week05/letter_grade.c
-    - refactor letter grade
+       - refactor letter grade
+
+```
+ wget https://k2controls.github.io/EGR111/sprint2/week05/letter_grade.c
+```
 
   - Refactor Office Space
 
