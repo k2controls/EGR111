@@ -56,6 +56,34 @@ git push --force
 
 **Session 2**
 
+- Program Structure - Flow Controls - continued
+  - Chapter 4 in text - see Tools section
+  - Selection (conditional)
+  - if/else - see Session 1
+    - Grading solution
+  - [switch structure](https://www.log2base2.com/C/control/switch-statement-in-c.html){:target='_blank'}
+    - [switch](switch.md){:target='_blank'}
+    - [office_space_v2](office_space_v2.md){:target='_blank'}   
+      - refactored selection - version 2
+  - [Ternary operator](https://www.log2base2.com/C/control/ternary-operator-in-c.html){:target='_blank'} 
+
+- [Iteration/Looping in C](https://www.thegeekstuff.com/2012/12/c-loops-examples){:target='_blank'}
+  - [While loop](http://tpcg.io/1I3AXC){:target='_blank'}
+  - [Do while](http://tpcg.io/CNWW6K){:target='_blank'}  
+  - [For loop](http://tpcg.io/2FTSN7){:target='_blank'}
+
+- **In-class Pair Coding** 
+
+- [RGB Converter Project](RGBConverter.pdf){:target='_blank'}
+  - in-class, partner activity
+  - Partner(s) - be sure to download solution into your EGR111 workspace
+  - Review format specifiers for scanf() (Hex input)
+    - Consider this line of code.
+
+```C
+scanf("%c%02x%02x%02x", &rgb_delimiter, &r, &g, &b);
+```     
+
 ---
 
 ### Assignments 
