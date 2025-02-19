@@ -64,7 +64,7 @@ git push --force
 - Separating function **declaration** and **definition** - demo 
   - [dec_bin_convert.c](dec_bin_convert.md){:target='_blank'}
   - wget https://k2controls.github.io/EGR111/sprint2/week06/dec_bin_convert.c
-
+  - demo - debugger use
 
 - **max_of_three.c**
   - Create a max_of_three.c file in this week's directory.
