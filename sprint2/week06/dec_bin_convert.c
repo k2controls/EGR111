@@ -23,7 +23,7 @@ int main()
   return 0;
 }
 
-// function to convert decimal to binary
+// function definition - convert decimal to binary
 long convert(int n) 
 {
 

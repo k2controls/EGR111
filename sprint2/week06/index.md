@@ -51,34 +51,42 @@ git push --force
 
 **Session 2**
 
-<!-- - [Functions - an introduction](https://www.geeksforgeeks.org/c-functions/){:target='_blank'}  
+- [Functions - continued](https://www.geeksforgeeks.org/c-functions/){:target='_blank'}  
 
-- Review chkr_move.c solution - more
+- Review **chkr_move.c** assignment - more
   - random number function
   - odd/even using Modulo operator
-    - [Modulo Operator (%)](https://www.geeksforgeeks.org/modulo-operator-in-c-cpp-with-examples/){:target='_blank'} 
+    - See [Modulo Operator (%)](https://www.geeksforgeeks.org/modulo-operator-in-c-cpp-with-examples/){:target='_blank'} for more. Note the selection between C++ and C demo code.
   - ternary operations used to determien RED, BLACK, and EMPTY
   - demo - debugger use
+  - Checker Moves code both declares and defines functions prior to main()
 
-- Function declaration and definition - demo 
-  - [dec_bin_convert.c](dec_bin_convert.c){:target='_blank'}
+- Separating function **declaration** and **definition** - demo 
+  - [dec_bin_convert.c](dec_bin_convert.md){:target='_blank'}
   - wget https://k2controls.github.io/EGR111/sprint2/week06/dec_bin_convert.c
 
 
 - **max_of_three.c**
   - Create a max_of_three.c file in this week's directory.
-  - Declare a max_of_three function.
-  - Define a max_of_three function after your main() function.
+  - Declare a max_of_three function. (**before** your main() function)
+  - Define a max_of_three function. (**after** your main() function)
   - The function accepts three integers as parameters.
   - The function determines the maximum value and returns this to the calling function.
-  - Call this function three times from the programs main() function using different values.
+  - *main()* - Call this function three times in your main() function using different arguments as specified below.
+    1. Use the function to determine the maximum value of -99, -50, and -1.
+    2. Use the function to determine the maxium value of characters z, Z, and ~. Be sure to display your result as character data.
+    3. Review the use of the random number creation in checker_moves. Create three random numbers pass to your max function to determine the max value. Be sure to *seed* the random number generator using the time library. Again, see the checker code.
 
-- **Solar Panel - Refactored!**
-  -[Solar Panel Calc V2](solar_panel_calc_v2.c){:target='_blank'}
+
+- **Solar Panel Functions- *Solar Panel Calc Refactored!***
+  -[Solar Panel Functions](solar_panel_functions.md){:target='_blank'}
+  - main() function is provided and identifies required functions.
+  - Create the required function prototypes/declarations prior to main().
+  - Create the required function definitions after main.
 
 ```console  
-wget https://k2controls.github.io/EGR111/sprint2/week06/solar_panel_calc_v2.c
-``` -->
+wget https://k2controls.github.io/EGR111/sprint2/week06/solar_panel_functions.c
+```
 
 ---
 
@@ -95,8 +103,8 @@ Push week05 updates to your remote repo
       - chkr_moves.c
       - max_of_three
       - max_of_three.c
-      - solar_panel_calc_v2
-      - solar_panel_calc_v2.c
+      - solar_panel_functions
+      - solar_panel_functions.c
 
     - gitignore
     - README.md
