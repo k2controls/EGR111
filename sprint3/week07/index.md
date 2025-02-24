@@ -27,8 +27,8 @@ layout: default
   - solar_panel_functions
 
 - Introduction to variable scope and pointers
-https://www.w3schools.com/c/c_scope.php
-https://www.w3schools.com/c/c_pointers.php
+  - [Variable Scope](https://www.w3schools.com/c/c_scope.php){:target='_blank'}
+  - [Pointers](https://www.w3schools.com/c/c_pointers.php){:target='_blank'}
 
   - [chkr_get_player](chkr_get_player.md){:target='_blank'}
 
