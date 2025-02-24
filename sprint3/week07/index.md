@@ -9,7 +9,7 @@ layout: default
 **Session 1**
 
 - Grades updated to Week 05
-- **Mid-term is next week (Monday)
+- **Mid-term is next week (Monday)**
   - We'll review during session 2 (Wednesday)
 - Week 06 Review/Coding Solutions
   - chkr_moves
