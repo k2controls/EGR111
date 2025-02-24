@@ -9,8 +9,18 @@ layout: default
 **Session 1**
 
 - Grades updated to Week 05
+  - Continue work on coding style
+  - variable definition at top of main
+  - no in-line definitions, no global definitions (today's topic!)
+  - Use of AI? bitwise shift and OR operation? Style not aligned with our standards?
+
 - **Mid-term is next week (Monday)**
   - We'll review during session 2 (Wednesday)
+  - 30 Multiple Choice
+  - In class programming - commit by end of class
+  - Functionality plus style
+  - AI and Honor System
+
 - Week 06 Review/Coding Solutions
   - chkr_moves
   - max_of_three
