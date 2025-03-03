@@ -10,7 +10,7 @@ layout: default
 Create a solution in C named **bike_gear_speed_calc.c** that calculates your bike speed in kilometers per hour (km/h) based on wheel dimensions, gear ratio, and pedal cadence.
 
 **REQUIREMENTS**
-- Review the online solution available [here](https://cyclingroad.com/bicycle-gear-ratio-cadence-and-speed-calculator/){:target='_blank'}. You will duplicate this calculator except that specific values for chainring and gear will be specified by the user in the program.
+- Review the online solution available [**here**](https://cyclingroad.com/bicycle-gear-ratio-cadence-and-speed-calculator/){:target='_blank'}. You will duplicate this calculator except that specific values for chainring and gear will be specified by the user in the program.
 - Watch the solution video provided [bike_gear_speed_video.mp4](bike_gear_speed_video.mp4){:target='_blank'} to understand the user entry and solution requirements. This video will demonstrate how to enter values like the chainring size (52 teeth) and gear size (11 teeth), leading to a resulting speed of 50.9 km/h, as seen in the speed table.
 
 **SOLUTION**
