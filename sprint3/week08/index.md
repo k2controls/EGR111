@@ -15,28 +15,31 @@ layout: default
 
 **Session 2**
 
-<!-- - Midterm Review
+- Midterm Review
   - MC Report
   - Coding 
     - grading in progress
-    - solution
-    - use of AI? Class policy moving forward
-- tic tac toe project
+    - discussion/solution next week
+
+- tic tac toe project - initial using global array
   - solution
   - top down design
+    - class defines required data
+    - class creates main()
+    - teams implement
   - team solution - include team members in header
     - teams
       - Team 1:
       - Team 2:
       - Team 3:
-    - pair coding using repl
-    - copy share URL to chat or send a message to me via Zoom.
-  - Report-out on main solution
-  - Implement solution -->
+    - pair coding using Live Share
+  - Team Q&A, report-outs
 
 ---
 
 ### Assignments
 
 - Session 1 - midterm
-- Session 2 - tictactoe.c (in progress) 
+- Session 2 - tictactoe.c
+  - in progress
+  - push current solution to week08 
