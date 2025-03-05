@@ -45,5 +45,5 @@ layout: default
 
 - Session 1 - midterm
 - Session 2 - tic tac toe
-  - ttt_g2da - in progress
+  - ttt_g2da 
   - push current solution to week08 
