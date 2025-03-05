@@ -21,7 +21,11 @@ layout: default
     - grading in progress
     - discussion/solution next week
 
-- tic tac toe project - initial using global array
+- Week 07 review
+  - arrays - tic tac toe board using 1 dimensional array
+  - pointers - swap (pass by reference)
+
+- tic tac toe project - initial using global 2D array
   - solution
   - top down design
     - class defines required data
