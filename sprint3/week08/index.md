@@ -44,6 +44,6 @@ layout: default
 ### Assignments
 
 - Session 1 - midterm
-- Session 2 - tictactoe.c
-  - in progress
+- Session 2 - tic tac toe
+  - ttt_g2da - in progress
   - push current solution to week08 
