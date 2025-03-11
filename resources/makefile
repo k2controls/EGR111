@@ -1,7 +1,7 @@
 # make file configured for EGR111 workspace
 # see https://dev.to/talhabalaj/setup-visual-studio-code-for-multi-file-c-projects-1jpi
-# Thank you Talha Balaj
-# 3/5/2022
+# 1/10/25
+
 # ******* Requirements ******
 # 1. Included launch.json and tasks.json files provided
 # 2. Add bin folder. Compiled binary is here as main
@@ -9,7 +9,7 @@
 # 4. Use subdirectories as required
 # 5. *** src_dir must be updated ***
 
-src_dir = week09/multi_files
+src_dir = ./week09/multi_files
 
 CC      := gcc
 C_FLAGS := -ggdb -Wextra -Wall
@@ -32,4 +32,4 @@ $(BIN)/$(EXECUTABLE): $(SRC)/*.c
 	$(CC) $(C_FLAGS) -I$(INCLUDE) $^ -o $@ $(LIBRARIES)
 
 clean:
-	rm $(BIN)/*
+	rm $(BIN)/* -f
