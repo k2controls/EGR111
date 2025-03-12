@@ -71,7 +71,7 @@ wget https://k2controls.github.io/EGR111/resources/tasks.json
 
 3. Add a *bin* directory to your workspace. This will be location for the binary file created by any make/build.
   - The top of your workspace should match the image below.
-    - ![alt text](vs_code_new_config.png)
+    - ![new VS Code configuration](vs_code_new_config.png)
 
 4. Open the makefile and verify the src_dir variable is pointing at the week09/multi_files directory
 
