@@ -32,4 +32,4 @@ $(BIN)/$(EXECUTABLE): $(SRC)/*.c
 	$(CC) $(C_FLAGS) -I$(INCLUDE) $^ -o $@ $(LIBRARIES)
 
 clean:
-	rm $(BIN)/* -f
+	rm -f $(BIN)/* 
