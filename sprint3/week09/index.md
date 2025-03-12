@@ -48,7 +48,7 @@ Build:
   gcc -g -o my_program main.c functions.c
 ```
 
-**Configuration Steps for multiple file solutions
+### Configuration Steps for multiple file solutions
 
 1. makefile is required when using multiple source files.
 
