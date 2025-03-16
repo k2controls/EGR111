@@ -1,6 +1,6 @@
 # make file configured for EGR111 workspace
 # see https://dev.to/talhabalaj/setup-visual-studio-code-for-multi-file-c-projects-1jpi
-# 1/10/25
+# 3/16/2025 - updated
 
 # ******* Requirements ******
 # 1. Included launch.json and tasks.json files provided
@@ -32,4 +32,10 @@ $(BIN)/$(EXECUTABLE): $(SRC)/*.c
 	$(CC) $(C_FLAGS) -I$(INCLUDE) $^ -o $@ $(LIBRARIES)
 
 clean:
-	rm -f $(BIN)/* 
+    @if [ -d $(BIN) ]; then \
+        rm -rf $(BIN)/*; \
+        echo "Cleaned the bin directory"; \
+    else \
+        echo "Bin directory does not exist"; \
+    fi
+

@@ -9,7 +9,7 @@
 # 4. Use subdirectories as required
 # 5. *** src_dir must be updated ***
 
-src_dir = ./
+src_dir = ./sprint3/week09/multi_files
 
 CC      := gcc
 C_FLAGS := -ggdb -Wextra -Wall
@@ -32,4 +32,10 @@ $(BIN)/$(EXECUTABLE): $(SRC)/*.c
 	$(CC) $(C_FLAGS) -I$(INCLUDE) $^ -o $@ $(LIBRARIES)
 
 clean:
-	rm $(BIN)/* -f
+    @if [ -d $(BIN) ]; then \
+        rm -rf $(BIN)/*; \
+        echo "Cleaned the bin directory"; \
+    else \
+        echo "Bin directory does not exist"; \
+    fi
+
