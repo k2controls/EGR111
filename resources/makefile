@@ -11,11 +11,11 @@
 
 src_dir = ./week09/multi_files
 
-CC      := gcc
+CC	  := gcc
 C_FLAGS := -ggdb -Wextra -Wall
 
-BIN     := bin
-SRC     := $(src_dir)
+BIN	 := bin
+SRC	 := $(src_dir)
 INCLUDE := $(src_dir)
 
 LIBRARIES   :=
@@ -32,10 +32,10 @@ $(BIN)/$(EXECUTABLE): $(SRC)/*.c
 	$(CC) $(C_FLAGS) -I$(INCLUDE) $^ -o $@ $(LIBRARIES)
 
 clean:
-    @if [ -d $(BIN) ]; then \
-        rm -rf $(BIN)/*; \
-        echo "Cleaned the bin directory"; \
-    else \
-        echo "Bin directory does not exist"; \
-    fi
+	@if [ -d $(BIN) ]; then \
+		rm -rf $(BIN)/*; \
+		echo "Cleaned the bin directory"; \
+	else \
+		echo "Bin directory does not exist"; \
+	fi
 
