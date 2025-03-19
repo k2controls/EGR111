@@ -133,7 +133,9 @@ wget https://k2controls.github.io/EGR111/sprint4/week10/chkrs/checkers.c
     - But...
     - *Required:* Add a comment describing your function solution. 
 
-- Can you complete the additional 'stubbed' code to complete the solution. Again, this version is just allowing red and black checkers to move to open spaces.
+  - *check_game_over* - a stub
+    - Let's leave this for now but change the return value to false so that more than one play is possible.
+    - Once jumping and capturing checkers is possible, we'll look for no more black or red pieces as flag for game over.
 
 ---
 
