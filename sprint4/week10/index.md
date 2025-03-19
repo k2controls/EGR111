@@ -137,8 +137,12 @@ wget https://k2controls.github.io/EGR111/sprint4/week10/chkrs/checkers.c
     - Let's leave this for now but change the return value to false so that more than one play is possible.
     - Once jumping and capturing checkers is possible, we'll look for no more black or red pieces as flag for game over.
 
+**Commit and push by end of day on Wednesday**
+
 ---
 
 ### Assignments
 - Checkers - version 1 - basic checker moves
+  - ** Be sure to commit and push by end of day on Wednesday**
+  - I'll be reviewing in-class work.
 
