@@ -21,10 +21,10 @@
 - [3/5/2025](https://nmc.zoom.us/rec/share/2A18Gwu9VKnXhC5wdvjEQf4FfTiIzd96eh8x_SMQMgI4MveJjCDka6zo1YZz2Upp.bJl- [3/10/2025](https://nmc.zoom.us/rec/share/N1m3IgrujtcL30ajDM-aHB4c5JcTOWYW67R_9jLXRuiEjcWXjtGvGy-Fuhdr1A-z.cpqwTtGj45df6GTk)
 - [3/12/2025](https://nmc.zoom.us/rec/share/4rNjFAyBp7oaUKnCpr9brAcp91-Dh0QEu8FHDpIOvDQPsbG2fP5Cv2Y3vcQN0EqC.vskRDvtkBeT1f81C)
 - [3/17/2025](https://nmc.zoom.us/rec/share/zKaE0mwTtLF6DcJWPCDRHezM5SZJ_TASqFf-NRQa1D_sGco2oL4nl5DqJqEfHzUx.AD1jo60w6OqULWSK)
-
+- [3/19/2025](https://nmc.zoom.us/rec/share/oLEOzN1UlLzra2XDJl6LDtOxuUCOK5Blz3_69ZFaA8BoeE71xcHkk1dg7lqpoy0O.yTE7IXka2tCXxpNZ)
 
 <!-- 
-- [3/19/2025]()
+
 - [3/24/2025]()
 - [3/26/2025]()
 - [3/31/2025]()
