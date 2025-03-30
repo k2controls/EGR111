@@ -21,6 +21,7 @@ void can_make_checker_string(void)
     test = true;
     //assert
     TEST_CHECK(test);
+}
 
 void can_make_king_checker_string(void)
 {
