@@ -4,7 +4,7 @@ layout: default
 
 ## EGR 111 - Introduction to Computer Science (C Programming)
 
-### [EGR111](../../) - [Sprint 4](../) - Week 10
+### [EGR111](../../) - [Sprint 4](../) - Week 11
 
 **Session 1**
 
@@ -108,7 +108,21 @@ int main()
   - modify add function to pass
 - Run solution with TESTING flag set to false
 
-**Session 1**
+**More Unit Testing - a tic tac toe example**
+- create a ttt_testing directory in week11
+- copy acutest.h to this new directory
+- add the following solution and test files.
+
+```
+wget https://k2controls.github.io/EGR111/sprint4/week11/ttt_testing/main.c
+wget https://k2controls.github.io/EGR111/sprint4/week11/ttt_testing/test_ttt.c
+wget https://k2controls.github.io/EGR111/sprint4/week11/ttt_testing/tictactoe.c
+wget https://k2controls.github.io/EGR111/sprint4/week11/ttt_testing/tictactoe.h
+
+``` 
+
+
+**Session 2**
 - Week 10 chkrs status (version 1: checker move only)
     - functional? Issues?
 
