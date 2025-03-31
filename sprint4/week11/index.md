@@ -109,7 +109,7 @@ int main()
 - Run solution with TESTING flag set to false
 
 **More Unit Testing - a tic tac toe example**
-- create a ttt_testing directory in week11
+- create a *ttt_testing* directory in week11
 - copy acutest.h to this new directory
 - add the following solution and test files.
 
