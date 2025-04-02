@@ -144,31 +144,34 @@ wget https://k2controls.github.io/EGR111/sprint4/week11/ttt_testing/tictactoe.h
 
 Session 2
 
+- Checkers v1 review (see week10)
+
+- Unit testing use acutest.h
+  - review multi_files
+  - review ttt_testing
+
 <!-- **Checkers with Jump(version 2)**
 - review main and plan
   - must jump
   - no kings
   - allows backward motion
   - no multi-jumps
+  -->
 
-- testing
-  - run tests
-  - [strings in C](https://www.geeksforgeeks.org/strings-in-c/){:target='_blank'}
-  - Strings - operations and functions
+
+- [strings in C](https://www.geeksforgeeks.org/strings-in-c/){:target='_blank'}
+- Strings - operations and functions
     - [strcpy](https://www.geeksforgeeks.org/strcpy-in-c/){:target='_blank'}
     - [strcat](https://www.geeksforgeeks.org/strcat-in-c/){:target='_blank'}
     - [strcmp](https://www.geeksforgeeks.org/strcmp-in-c/){:target='_blank'}
-  - Unit Tests
-    - void can_make_checker_string(void)
-    - void can_make_king_checker_string(void)
-- Complete tests on your own  -->
 
 ---
 
 ### Assignments
 - Checkers - version 1 (in week10) - basic checker moves
+  - Your solution must be functional. Complete all #TODOs
 - Multiple Files with acutest testing - functional
-- Checkers - version 2 
-  - install and tested
-  - in progress  
+- ttt_testing - functional, review and practice with testing
+- *Checkers - version 2* moved to next week
+
 
