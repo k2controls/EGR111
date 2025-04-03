@@ -25,12 +25,14 @@
 - [3/24/2025]()
 - [3/26/2025]()
 - [3/31/2025](https://nmc.zoom.us/rec/share/ltHpVaMg8zvmqGuKJEtHbhQ8SlJnsTDY0o6TwGnzF4AAaZ8Fll1aERFv_21MK3hy.3mN3snnUpCzMsWSW)
+- [4/2/2025](https://nmc.zoom.us/rec/share/3vS-pDvi77ba0soFZwxwsEcKCWwYjwCFnA9gZX1ltmCWMML68ZRuW-xlBDtgrd3l.6x4rud8QLXIoRtKJ)
+
 
 
 <!-- 
 
 
-- [4/2/2025]()
+
 - [4/7/2025]()
 - [4/9/2025]()
 - [4/14/2025]()
