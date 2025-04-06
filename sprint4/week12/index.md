@@ -24,7 +24,9 @@ layout: default
 - Week 11 - [Strings in C](strings.md){:target='_blank'}
 
 **Checkers with Jump(version 2)**
-- review main and plan
+- Review of [game rules]](checkers_rules.md){:target='_blank'}
+
+- Version 2 - review main and plan
   - must jump
   - no kings
   - allows backward motion
@@ -37,10 +39,10 @@ wget https://k2controls.github.io/EGR111/sprint4/week12/chkrs_v2/main.c
 wget https://k2controls.github.io/EGR111/sprint4/week12/chkrs_v2/test_checkers.c
 ``` 
 
-  - Unit Tests
+  <!-- - Unit Tests
     - void can_make_checker_string(void)
     - void can_make_king_checker_string(void)
-- Complete tests on your own -->
+- Complete tests on your own - -->
 
 
 

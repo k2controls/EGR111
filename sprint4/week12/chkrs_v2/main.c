@@ -15,7 +15,7 @@ int main(void)
     int* brd_ptr = &board[0][0];
     bool play_again = true;
     int player, chkr_number, move_vector;
-    int * chkr_ptr;
+    int* chkr_ptr;
     bool brd_has_jump, has_jump, has_move;
     bool jumped, moved;
 
