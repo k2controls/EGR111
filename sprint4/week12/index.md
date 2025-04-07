@@ -24,7 +24,7 @@ layout: default
 - Week 11 - [Strings in C](strings.md){:target='_blank'}
 
 **Checkers with Jump(version 2)**
-- Review of [game rules]](checkers_rules.md){:target='_blank'}
+- Review of [game rules](checkers_rules.md){:target='_blank'}
 
 - Version 2.0
   - includes jump and testing
