@@ -26,11 +26,13 @@ layout: default
 **Checkers with Jump(version 2)**
 - Review of [game rules]](checkers_rules.md){:target='_blank'}
 
-- Version 2 - review main and plan
-  - must jump
-  - no kings
-  - allows backward motion
-  - no multi-jumps
+- Version 2.0
+  - includes jump and testing
+  - kings moves implemented
+  - kinging not implemented
+
+  - [version 2 pseudo code](checkers_v2_pseudocode.md){:target='_blank'}
+
 
 ```
 wget https://k2controls.github.io/EGR111/sprint4/week12/chkrs_v2/checkers.c
