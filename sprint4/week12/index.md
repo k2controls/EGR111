@@ -41,7 +41,7 @@ wget https://k2controls.github.io/EGR111/sprint4/week12/chkrs_v2/main.c
 wget https://k2controls.github.io/EGR111/sprint4/week12/chkrs_v2/test_checkers.c
 ``` 
 
-  <!-- - Unit Tests
+<!-- - Unit Tests
     - void can_make_checker_string(void)
     - void can_make_king_checker_string(void)
 - Complete tests on your own - -->
