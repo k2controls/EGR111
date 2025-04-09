@@ -73,7 +73,7 @@ wget https://k2controls.github.io/EGR111/sprint4/week12/chkrs_v2/test_checkers.c
       1	1	||  1	  1	  0
 ```
 
-https://www.programiz.com/c-programming/bitwise-operators
+[Bitwise Operators](https://www.programiz.com/c-programming/bitwise-operators){:target='_blank'}
 
 - Review bitwise operations
   - [BitwiseDiscussion.xlsx](BitwiseDiscussion.xlsx)
