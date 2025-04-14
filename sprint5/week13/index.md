@@ -7,15 +7,14 @@ layout: default
 ### [EGR111](../../) - [Sprint 4](../) - Week 13
 
 **Schedule**
-- Week 12
 - Week 13
   - Session 1 (today)
+    - chkrs_v2 status and review
     - dynamic memory
     - stack vs heap
-  - Session 1 
-    - chkrs_v2 status and review
+  - Session 2 
     - structs and unions
-  - Session 2 - chkrs 3 with dynamic structs - demo only
+    - chkrs 3 with dynamic structs - demo only
 - Week 14
   - Session 1 
     - chkrs_v2 status and review
