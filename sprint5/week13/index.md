@@ -65,7 +65,9 @@ layout: default
   - [Demo - bad code](brd_on_stack/main.c)   
   - [image of stack](brd_on_stack/checkers_on_stack.pdf){:target='_blank'} 
 
-- Memory concepts - allocating heap
+**Session 2**
+
+- Review: Memory concepts - allocating heap
   - [Pointers and dynamic memory - stack vs heap](https://www.youtube.com/watch?v=_8-ht2AKyH4&ab_channel=mycodeschool){:target='_blank'}
     - four sections
       - program/code
@@ -81,7 +83,26 @@ layout: default
   - ![board factory](board_factory_call.jpg)
   - ![board factory implmentation](board_factory_allocated.jpg)
 
-- [dynamic-memory-allocation](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/){:target='_blank'}
+  - [dynamic-memory-allocation](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/){:target='_blank'}
+
+- **Structures**
+  - [C Structures](https://www.geeksforgeeks.org/structures-c/?ref=lbp){:target='_blank'}
+
+```C
+typedef struct Checker
+{
+    int index;
+    bool is_empty;
+    bool is_black;
+    bool is_red;
+    bool is_king;
+    char name[4];
+
+} checker;
+```  
+
+- test_checker.c
+- checker_factory.c
 
 ### Assignments
 - chkrs_v2 - in progress, progress reported in next week's stand up. 
