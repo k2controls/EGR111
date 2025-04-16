@@ -105,4 +105,9 @@ typedef struct Checker
 - checker_factory.c
 
 ### Assignments
-- chkrs_v2 - in progress, progress reported in next week's stand up. 
+- chkrs_v2 
+  - in progress but push current solution this week
+  - jump function implemented
+  - king functions, integration, and testing started
+  - progress reported in next week's stand up.
+
