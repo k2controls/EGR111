@@ -41,7 +41,7 @@ layout: default
       - Create can_make_black_king unit test
     - Final code pushed by tomorrow (Tuesday) night. Solution discussion on Wednesday
 
-- [Linked Lists](https://www.geeksforgeeks.org/linked-list-in-c/)
+- [Linked Lists](https://www.geeksforgeeks.org/linked-list-in-c/){:target='_blank'}
 - chkrs_linked - solution demo
   - ![alt text](space_graph.png)
   - status
