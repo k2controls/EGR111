@@ -10,7 +10,7 @@ layout: default
 - Week 14
   - Session 1 
     - chkrs_v2 status and review
-    - chkrs_v2 due. Solution on Wednesday Push your code!
+    - chkrs_v2 due. Solution on Wednesday. Push your code!
     - Linked Lists
     - chkrs_linked demo
   - Session 2 
