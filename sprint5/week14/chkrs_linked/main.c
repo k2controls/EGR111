@@ -18,11 +18,10 @@ int main(void)
     fill_board(brd_ptr);
     while (!brd_ptr->game_over)
     {
-        update_jumpers(brd_ptr);
         draw_board(brd_ptr);
         while (!brd_ptr->active_space_ptr)
         {
-            selected_checker_num = get_checker_number();
+            selected_checker_num = get_checker_number(brd_ptr);
             if (!locate_checker(brd_ptr, selected_checker_num))
                 printf(brd_ptr->status);
             else if (!validate_checker(brd_ptr))
@@ -42,7 +41,7 @@ int main(void)
 int get_checker_number(board* board_ptr)
 {
     int checker_num = 0;
-    while (checker_num = 0)
+    while (checker_num == 0)
     {
         printf("%s's move. Which checker: ", board_ptr->active_player == BLACK ? "Black" : "Red");
         scanf("%d", &checker_num);
@@ -55,7 +54,7 @@ int get_checker_number(board* board_ptr)
     return checker_num;
 }
 
-enum moves get_user_move_vector(int* chkr_ptr)
+int get_user_move()
 {
     int user_move;
     enum moves move = MOVE_NONE;
@@ -64,9 +63,9 @@ enum moves get_user_move_vector(int* chkr_ptr)
         printf("Enter move (7=upleft,9=upright,1=downleft, 3=downright): ");
         scanf("%d", &user_move);
         if (user_move == 1 || user_move == 3 || user_move ==7 || user_move == 9)
-            move = user_move;
+            move = (enum moves)user_move;
         else
-            printf("That's not a valid direction entry. Try again.\n");
+            printf("That's not a valid direction entry. Enter 1,3,7,or 9. Try again.\n");
     }
     return move;
 }

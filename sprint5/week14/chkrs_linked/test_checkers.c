@@ -93,8 +93,8 @@ void can_locate_checker(void)
     board* brd_ptr = board_factory();
     fill_board(brd_ptr);  
 
-    char chkr_name1[4] = "b12";
-    locate_checker(brd_ptr, chkr_name1);
+    int chkr_num = 12;
+    locate_checker(brd_ptr, chkr_num);
     TEST_CHECK(strcmp(brd_ptr->active_space_ptr->owner->name, "b12")==0);
 
     
@@ -103,10 +103,10 @@ void can_locate_checker(void)
 
 // List of tests - key, value pairs with {NULL, NULL} termination.
 TEST_LIST = {
-    // {"can make empty board", can_make_empty_board},
-    // {"can navigate spaces", can_navigate_spaces},
-    // {"can access adjacent spaces", can_access_adjacent_spaces},
-    // {"can fill board", can_fill_board},
+    {"can make empty board", can_make_empty_board},
+    {"can navigate spaces", can_navigate_spaces},
+    {"can access adjacent spaces", can_access_adjacent_spaces},
+    {"can fill board", can_fill_board},
     {"can locate checker", can_locate_checker},
 
     {NULL, NULL}};

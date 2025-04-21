@@ -16,7 +16,7 @@ board* board_factory()
     
     board_ptr->active_player = BLACK;
     board_ptr->active_space_ptr = NULL;
-    board_ptr->move = board_ptr->->moves.MOVE_NONE
+    board_ptr->move = MOVE_NONE;
     board_ptr->jumpers[0] = NULL;
     board_ptr->game_over = false;
     
@@ -162,8 +162,8 @@ void fill_board_red(board* board_ptr)
     for (int i=1; i<=12; i++)
     {
         chkr_ptr = checker_factory(RED, i, active_space_ptr);
-        selected_space_ptr->owner = chkr_ptr;
-        selected_space_ptr = selected_space_ptr->prior_space_ptr;
+        active_space_ptr->owner = chkr_ptr;
+        active_space_ptr = active_space_ptr->prior_space_ptr;
     }
 }
 
@@ -229,8 +229,96 @@ bool locate_checker(board* board_ptr, int checker_num)
             if (board_ptr->active_space_ptr->owner)
                 if (strcmp(board_ptr->active_space_ptr->owner->name, chkr_name) ==0)
                     found = true;
-            board_ptr->active_space_ptr = board_ptr->active_space_ptr->next_space_ptr;
+            if (!found)  //advance pointer
+                board_ptr->active_space_ptr = board_ptr->active_space_ptr->next_space_ptr;
         }
     }
     return found;
+}
+
+bool validate_checker(board* board_ptr)
+{
+    if (!space_has_jump(board_ptr->active_space_ptr))
+    {
+        if (board_has_jump(board_ptr))
+        {
+            strcpy(board_ptr->status, "Invalid checker selection. There is a required jump on the board.");
+            return false;
+        }
+    }
+    else if (!space_has_move(board_ptr->active_space_ptr))
+    {
+        strcpy(board_ptr->status, "Invalid checker selection. There is no move for this checker.");
+        return false;
+    }
+    else
+    {
+        strcpy(board_ptr->status, "Checker selected.");
+        return true;
+    }
+}
+
+bool space_has_jump(space* space_ptr)
+{
+    // TODO
+    return false;
+}
+bool board_has_jump(board* board_ptr)
+{
+    // TODO
+    return false;
+}
+bool space_has_move(space* space_ptr)
+{
+    bool has_move = false;
+    if (space_ptr->owner->is_king)
+        has_move = !space_ptr->adj_space_dl->owner
+                    || !space_ptr->adj_space_dr->owner
+                    || !space_ptr->adj_space_ul->owner
+                    || !space_ptr->adj_space_ur->owner;
+    else if (space_ptr->owner->color == BLACK)
+        has_move = !space_ptr->adj_space_dl->owner
+                    || !space_ptr->adj_space_dr->owner;
+    else //red
+        has_move = !space_ptr->adj_space_ul->owner
+                    || !space_ptr->adj_space_ur->owner;
+    return has_move;
+}
+
+bool move_checker(board* board_ptr, enum moves move)
+{
+    bool moved = false;
+    space* destination_ptr = NULL;
+    switch (move)
+    {
+        case 7:
+            if (board_ptr->active_space_ptr->adj_space_ul
+                && !board_ptr->active_space_ptr->adj_space_ul->owner)
+                    destination_ptr = board_ptr->active_space_ptr->adj_space_ul;
+            break;
+        case 9:
+            if (board_ptr->active_space_ptr->adj_space_ur
+                && !board_ptr->active_space_ptr->adj_space_ur->owner)
+                    destination_ptr = board_ptr->active_space_ptr->adj_space_ur;
+            break;
+        case 1:
+            if (board_ptr->active_space_ptr->adj_space_dl
+                && !board_ptr->active_space_ptr->adj_space_dl->owner)
+                    destination_ptr = board_ptr->active_space_ptr->adj_space_dl;
+        break;
+        case 3:
+        if (board_ptr->active_space_ptr->adj_space_dr
+            && !board_ptr->active_space_ptr->adj_space_dr->owner)
+                destination_ptr = board_ptr->active_space_ptr->adj_space_dr;
+        break;    
+    }
+    
+    if (destination_ptr)
+    {
+        destination_ptr->owner = board_ptr->active_space_ptr->owner;
+        board_ptr->active_space_ptr->owner = NULL;
+        board_ptr->active_space_ptr = NULL;
+        moved = true;
+    }
+    return moved;
 }

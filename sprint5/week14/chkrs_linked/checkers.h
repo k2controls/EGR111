@@ -6,7 +6,7 @@
 
 #ifndef TESTING
 
-#define TESTING false
+#define TESTING true
 
 
 //*********** data definitions ****************/
@@ -80,6 +80,15 @@ void draw_board(board* board_ptr);
 void draw_row_odd(space* space_ptr);
 void draw_row_even(space* space_ptr);
 
-bool locate_checker(board* board_ptr, int checker_num)
+bool locate_checker(board* board_ptr, int checker_num);
+
+int get_checker_number(board* board_ptr);
+bool validate_checker(board* board_ptr);
+int get_user_moves();
+bool space_has_jump(space* space_ptr);
+bool board_has_jump(board* board_ptr);
+bool space_has_move(space* space_ptr);
+bool move_checker(board* board_ptr, enum moves move);
+
 #endif
 
