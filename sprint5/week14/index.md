@@ -70,4 +70,4 @@ layout: default
 ---
 
 ### Assignments
--  None. Final Project is in progress. Due next Wednesday. Push to your repo. I'll be pulling final code on Wednesday morning.
+-  None. Final Project is in progress. Due next Wednesday. Push to your repo. I'll be pulling final code on Thursday morning.

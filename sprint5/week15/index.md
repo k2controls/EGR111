@@ -51,5 +51,5 @@ wget https://k2controls.github.io/EGR111/sprint5/week15/sblackjack/test_sblackja
 - The final project is assigned and is your final exam. 
     - You must do your own work. Respond to the Ethics Check in Moodle Week 15.
     - It must be pushed by Week 15 Session 2. 
-    - Week 15 Session 1 is working session - no class.
+    - Week 15 Session 1 and 2 are working sessions - no class.
     - You must complete the NMC course evaluation. See your NMC email.
