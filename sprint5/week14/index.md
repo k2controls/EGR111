@@ -50,16 +50,24 @@ layout: default
 
 **Session 2**
 
+- Final code pull from all repos this morning
+
+- Linked List, Graph review
+  - Running chkrs_linked
+
+- [Overview of Object-Oriented Programming (OOP)](oop_in_c.md){:target='_blank'}
+
 <!-- - [Persistance](https://en.wikipedia.org/wiki/Persistence_(computer_science))
   - [What is a relational database management system?](https://www.codecademy.com/article/what-is-rdbms-sql){:target='_blank'}
   - [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete){:target='_blank'}
   - [CRUD using MySQL](https://www.geeksforgeeks.org/crud-operations-in-mysql){:target='_blank'}
   - [NoSQL](https://www.codecademy.com/article/introduction-to-nosql){:target='_blank'}
-  - [REST webservices](https://www.geeksforgeeks.org/rest-api-introduction/){:target='_blank'}
+  - [REST webservices](https://www.geeksforgeeks.org/rest-api-introduction/){:target='_blank'} -->
 
-- Week 15 final project install -->
-
+- Week 15 final project install and review
+  - **See Week 15**
+  
 ---
 
 ### Assignments
--  None. Final Project is in progress. Due next Wednesday. Push to your repo. I'll be pulling final code on Thursday morning.
+-  None. Final Project is in progress. Due next Wednesday. Push to your repo. I'll be pulling final code on Wednesday morning.
